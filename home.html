@@ -22,48 +22,80 @@
     <!-- FONT AWESOME -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
-        
+
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Russo+One" rel="stylesheet">
 
     <title>Collins Kariuki</title>
 </head>
 
-<body>
+<body onload="myFunction()">
+
+    <!-- SITE PRELOADER -->
+        <div class="container">
+                <div style="font-family: 'Do Hyeon', sans-serif;" id="loader">
+                    <img src="images/loader2.svg" alt="Loader Animation">
+                    <p>
+                        <h1>LOADING...</h1>
+                    </p>
+                </div>
+        </div>
+    <!-- COLLAPSE SITE PRELOADER -->
+    
+
+    <!-- PAGE CONTENT -->
+<div id="content" class="animate-bottom">
 
 
-            <!-- NAV-BAR -->
-            <div class="navigator">
+    <!-- NAV-BAR -->
+    <div class="navigator">
 
-                <nav>
-                    <div class="logo-section">
-                        <a class="logo">YOUR LOGO</a>
-                        <button class="hb-button"><i class="fa fa-bars"></i></button>
-                        <!--<img src="" alt="navbar logo image">--> 
-                    </div>
-
-                    <ul>
-                        <li><a href="/">home</a></li>
-                        <li><a href="/">works</a></li>
-                        <li><a href="/">art</a> </li>
-                        <li><a href="/">about me!</a> </li>
-                        <li><a href="/">contact</a></li>
-
-                    </ul>
-
-                </nav>
-
+        <nav>
+            <div class="logo-section">
+                <a class="logo">YOUR LOGO<!--<img src="" alt="navbar logo image">--></a>
+                <button class="hb-button"><i class="fa fa-bars"></i></button>
+                <!--<img src="" alt="navbar logo image">--> 
             </div>
-            <!-- COLLAPSE  NAV-BAR -->
+
+            <ul>
+                <li><a href="/">contact</a></li>
+                <li><a href="/">about me</a></li>
+                <li><a href="/">art work</a> </li>
+                <li><a href="/">code work</a> </li>
+                <li><a href="/">home</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+    <!-- COLLAPSE  NAV-BAR -->
+
+
+    <span class="wow elem --triangulo-branco animated" style="visibility: visible;"></span>
 
 
 
-            <!-- JAVA SCRIPT LINKS -->
 
 
-           
-            
-            <script src="js/scripts.js"></script>
+    
+</div>
+    <!--COLLAPSE PAGE CONTENT -->
+<!-- JAVA SCRIPT LINKS -->
+<script type="text/javascript">
+    var Start;
+
+    //Show page content after 3.5s
+    function myFunction(){
+        Start = setTimeout(showpage,3500);
+    }
+    // Hide animation loader and show page content
+    function showpage(){
+        document.getElementById("loader").style.display="none";
+        document.getElementById("content").style.display="block";
+    }
+</script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

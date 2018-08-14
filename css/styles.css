@@ -10,7 +10,7 @@
 
 
    Conception/Design by https://github.com/zecollokaris
-                 made with collo
+                 made by collo
 
   
 \*************************************************/
@@ -34,11 +34,11 @@
     /* COLAPSE STYLER FOR WHOLE BODY SECTION */
 /* ################################################################################################################# */
 /* ################################################################################################################# */
-/* ################################################################################################################# */
         /* NAV BAR STYLE */
 /* ################################################################################################################# */
 .navigator{
     margin-top: 5%;
+    font-family: 'Russo One', sans-serif;
 }
 header{
     width: 100%;
@@ -50,6 +50,7 @@ nav{
     overflow: hidden;
     position: absolute;
     width: 100%;
+
 }
 
 .logo-section{
@@ -115,8 +116,8 @@ li > a:before{
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scale(0);
-    -webkit-transition: all 3s easy-in-out 0.2s;
-    transition: all 0.3s ease-in-out 0.2s;
+    -webkit-transition: all 4s easy-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 li > a:hover:before{
@@ -128,12 +129,43 @@ li > a:hover:before{
 
 
 /* COLLAPSE NAV BAR STYLE */
-
-
 /* ################################################################################################################# */
-
 /* ################################################################################################################# */
+        /* LOADER LANDING PAGE */
+/* ################################################################################################################# */
+#loader{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    margin: 0 auto;
+}
 
+/* hide content */
+#content{
+    display: none;
+    text-align: center;
+}
+
+/* add animation */
+.animate-bottom{
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s;
+}
+@-webkit-keyframes animatebottom{
+    from {bottom: -100px; opacity: 0}
+    to{ bottom: 0; opacity: 1}
+}
+@keyframes animatebottom {
+    from{ bottom:-400px; opacity: 0 }
+    to{ bottom: 0px; opacity: 1}
+
+}
+
+
+        /*COLLAPSE LOADER LANDING PAGE */
 /* ################################################################################################################# */
 
 /* ################################################################################################################# */
