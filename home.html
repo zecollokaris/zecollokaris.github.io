@@ -9,6 +9,8 @@
     <!-- STYLE SHEET -->
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- EMOJI CSS -->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
     <!-- BOOTSTRAP -->
     <!-- Latest compiled and minified CSS -->
@@ -32,13 +34,23 @@
 <body onload="myFunction()">
 
 <div class="container">
+
+<div style="font-weight:900;" id="load">
+    <div>G</div>
+    <div>N</div>
+    <div>I</div>
+    <div>D</div>
+    <div>A</div>
+    <div>O</div>
+    <div>L</div>
+</div>
+
     <!-- SITE PRELOADER -->
         <div class="container">
                 <div style="font-family: 'Do Hyeon', sans-serif;" id="loader">
-                    <img src="images/loader2.svg" alt="Loader Animation">
-                    <p>
-                        <h1>LOADING...</h1>
-                    </p>
+                    <p>WELCOME !</p>
+                    <p>portfolio by Collins Kariuki <i class="em em-zany_face"></i> <i class="em em---1"></i> </P>
+                    
                 </div>
         </div>
     <!-- COLLAPSE SITE PRELOADER -->
@@ -96,7 +108,7 @@
 
     //Show page content after 3.5s
     function myFunction(){
-        Start = setTimeout(showpage,500);
+        Start = setTimeout(showpage,6000);
     }
     // Hide animation loader and show page content
     function showpage(){
