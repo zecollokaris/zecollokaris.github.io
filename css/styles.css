@@ -25,15 +25,11 @@
         /* STYLER FOR WHOLE BODY SECTION */
 /* ################################################################################################################# */
 
-
 *{
     margin: 0;
     padding: 0;
 }
 
-html{
-    
-}
     /* COLAPSE STYLER FOR WHOLE BODY SECTION */
 /* ################################################################################################################# */
 /* ################################################################################################################# */
@@ -51,10 +47,8 @@ header{
 nav{
     background: transparent;
     overflow: hidden;
-    position: absolute;
     width: 100%;
-    
-
+    z-index: 1999;
 }
 
 .logo-section{
@@ -181,10 +175,9 @@ li > a:hover:before{
 .slider{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     margin: auto;
     overflow: hidden;
-    margin-top: 7%;
 }
 
 .slide{
@@ -209,7 +202,7 @@ li > a:hover:before{
 }
 
 .s2{
-    background: url('../images/slide2.jpg');
+    background: url('../images/slide2.JPG');
     background-size: 100% 100%;
 }
 
@@ -219,20 +212,22 @@ li > a:hover:before{
 }
 
 .s4{
-    background: url('../images/slide4.jpg');
+    background: url('../images/slide4.JPG');
     background-size: 100% 100%;
 }
 
 .box{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url('../images/patt3.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
     position: absolute;
     z-index: 999;
     -webkit-clip-path:polygon(0% 100%, 100% 100%,100% 80%,93% 85%,8% 95%, 15% 6%,89% 22%,93% 85%,100% 80%,100% 0%,0% 0%,0% 100%);
     transition: all 1s;
+    
 }
 
 /* ################################################################################################################# */
