@@ -52,7 +52,7 @@
 
         <nav>
             <div class="logo-section">
-                <a class="logo">YOUR LOGO<!--<img src="" alt="navbar logo image">--></a>
+                <a class="logo"><img src="images/navname.png" alt="navbar logo image"></a>
                 <button class="hb-button"><i class="fa fa-bars"></i></button>
                 <!--<img src="" alt="navbar logo image">--> 
             </div>
@@ -72,8 +72,12 @@
     <!-- COLLAPSE  NAV-BAR -->
 
 
-    <span class="wow elem --triangulo-branco animated" style="visibility: visible;"></span>
-
+    <div class="slider">
+        <div class="slide s1 active"></div>
+        <div class="slide s2"></div>
+        <div class="slide s3"></div>
+        <div class="slide s4"></div>
+    </div>
 
 
 
@@ -87,7 +91,7 @@
 
     //Show page content after 3.5s
     function myFunction(){
-        Start = setTimeout(showpage,3500);
+        Start = setTimeout(showpage,500);
     }
     // Hide animation loader and show page content
     function showpage(){
