@@ -309,6 +309,12 @@ li > a:hover::before{
     transform: scaleX(1);
 }
 
+/* Image on nav bar class */
+.logoimg{
+    height: 10vh;
+}
+/*Collapse Image on nav bar class */
+
 
 /* COLLAPSE NAV BAR STYLE */
 /* ################################################################################################################# */
@@ -376,33 +382,39 @@ li > a:hover::before{
 
 .active ~ .slide{
     transform: translate(100%,0);
+    
 }
 
 /* SLIDER IMAGES */
 .s1{
     background: url('../images/slide1.JPG');
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .s2{
     background: url('../images/slide2.JPG');
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .s3{
     background: url('../images/slide3.JPG');
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .s4{
     background: url('../images/slide4.JPG');
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .box{
     width: 100%;
     height: 73vh;
     background: url('../images/patt3.png');
+    background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -412,10 +424,29 @@ li > a:hover::before{
     
 }
 
+        /* COLLAPSE SLIDER IMAGES */
+/* ################################################################################################################# */
+/* ################################################################################################################# */
+        /* HOME CONTENT SECTION */
 /* ################################################################################################################# */
 
-/* ################################################################################################################# */
+/* HOME INTRO SECTION */
 
+#home-intro{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 5px solid yellow;
+    margin: 1em 0;
+    width: 100px;
+}
+
+.intro-description{
+    padding-top: 2%;
+}
+
+
+/* COLLAPSE HOME INTRO SECTION */
 /* ################################################################################################################# */
 
 /* ################################################################################################################# */
@@ -463,3 +494,5 @@ li > a:hover::before{
 
 /*COLLAPSE MEDIA QUERIES */
 /* ################################################################################################################# */
+I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding, tweeting or pushing pixels,
+you'll find me cooking, gardening or working out in the park.
