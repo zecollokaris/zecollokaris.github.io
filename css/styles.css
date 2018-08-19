@@ -33,6 +33,8 @@
 
 body {
   background:#000;
+  margin: 0;
+  padding: 0;
 }
 
 #load {
@@ -449,7 +451,61 @@ li > a:hover::before{
 /* COLLAPSE HOME INTRO SECTION */
 
 /* ################################################################################################################# */
+/* ################################################################################################################# */
+       
+
         /* CONTENT SLIDER */
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 55vw;
+    overflow: hidden;
+}
+
+.layer{
+    position: absolute;
+    width: 100vw;
+    min-height: 55vw;
+    overflow: hidden;
+}
+
+.layer .content-wrap{
+    position: absolute;
+    width: 100vw;
+    min-height: 55vw;
+}
+
+.layer .content-body{
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.layer img{
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.layer h1{
+    font-size: 2em;
+}
+
+.bottom{
+    background: #222;
+    z-index: 1;
+}
+
+
+
+
+
+        /* COLLAPSE CONTENT SLIDER */
 /* ################################################################################################################# */
 
 /* ################################################################################################################# */
