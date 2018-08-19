@@ -463,14 +463,14 @@ li > a:hover::before{
 #wrapper{
   position: relative;
   width:100%;
-  min-height:55vw;
+  min-height:35vw;
   overflow: hidden;
 }
 
 .layer{
   position: absolute;
   width:100vw;
-  min-height: 45vw;
+  min-height: 55vw;
   overflow: hidden;
 }
 
@@ -489,12 +489,22 @@ li > a:hover::before{
   color:#fff;
 }
 
-.layer img{
+.imageone{
+   position: absolute;
+  width: 20%;
+  top: 30%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+
+}
+
+.imagetwo{
   position: absolute;
-  width:35%;
-  top:50%;
-  left: 50%;
-  transform:translate(-50%, -50%);
+  width: 20%;
+  top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+
 }
 
 .layer h1{
@@ -503,12 +513,12 @@ li > a:hover::before{
 
 .bottom{
   background:#222;
-  z-index:;
-  
+  z-index:1;
+  width:80vw;
 }
 
 .bottom .content-body{
-  right:5%;
+  right:30%;
 }
 
 .bottom h1{
@@ -523,7 +533,7 @@ li > a:hover::before{
 }
 
 .top .content-body{
-  left: 5%;
+  left: 40%;
   color:#222;
 }
 
@@ -534,26 +544,26 @@ li > a:hover::before{
   background-color: #FDAB00;
   width:5px;
   top:0;
-  left: 50%;
+  left: 70%;
   z-index:3;
 }
 
 .skewed .handle{
-  top:50%;
+  top:-15%;
   transform:rotate(30deg) translateY(-50%);
-  height: 200%;
+  height: 300%;
   transform-origin:top;
 }
 
 .skewed .top{
   transform: skew(-30deg);
-  margin-left:-1000px;
+  margin-left:-1300px;
   width: calc(50vw + 1000px);
 }
 
 .skewed .top .content-wrap{
   transform: skew(30deg);
-  margin-left:1000px;
+  margin-left:700px;
 }
 
 @media(max-width:768px){
@@ -619,3 +629,112 @@ li > a:hover::before{
 /* ################################################################################################################# */
 I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding, tweeting or pushing pixels,
 you'll find me cooking, gardening or working out in the park.
+
+
+
+
+
+
+
+
+/* #wrapper{
+  position: relative;
+  width:100%;
+  min-height:35vw;
+  overflow: hidden;
+}
+
+.layer{
+  position: absolute;
+  width:100vw;
+  min-height: 55vw;
+  overflow: hidden;
+}
+
+.layer .content-wrap{
+  position: absolute;
+  width:100vw;
+  min-height: 55vw;
+}
+
+.layer .content-body{
+  width:25%;
+  position:absolute;
+  top:50%;
+  text-align: center;
+  transform:translateY(-50%);
+  color:#fff;
+}
+
+.layer img{
+  position: absolute;
+  width:20%;
+  top:30%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.layer h1{
+  font-size:2em;
+}
+
+.bottom{
+  background:#222;
+  z-index:1;
+  width:80vw;
+}
+
+.bottom .content-body{
+  right:5%;
+}
+
+.bottom h1{
+  color:#FDAB00;
+}
+
+.top{
+  background:#eee;
+  color:#222;
+  z-index:2;
+  width:50vw;
+}
+
+.top .content-body{
+  left: 20%;
+  color:#222;
+}
+
+.handle{
+  position: absolute;
+  height: 100%;
+  display: block;
+  background-color: #FDAB00;
+  width:5px;
+  top:0;
+  left: 70%;
+  z-index:3;
+}
+
+.skewed .handle{
+  top:50%;
+  transform:rotate(30deg) translateY(-50%);
+  height: 200%;
+  transform-origin:top;
+}
+
+.skewed .top{
+  transform: skew(-30deg);
+  margin-left:-1300px;
+  width: calc(50vw + 1000px);
+}
+
+.skewed .top .content-wrap{
+  transform: skew(30deg);
+  margin-left:700px;
+}
+
+@media(max-width:768px){
+  body{
+    font-size:75%;
+  }
+} */
