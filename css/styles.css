@@ -537,9 +537,21 @@ li > a:hover::before{
     top: 50%;
     transform: rotate(30deg) translateY(-50%);
     height: 200%;
-    transform-origin: top;
-    
+    transform-origin: top;   
 }
+
+.skewed .top{
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+}
+
+.skewed .top .content-wrap{
+    transform: skew(30deg);
+    margin-left: 1000px;
+}
+
+
 
 
 
@@ -566,6 +578,10 @@ li > a:hover::before{
 /* MEDIA QUERIES */
 
 @media screen and (max-width:768px){
+
+    .body{
+        font-size: 75%;
+    }
     .logo-section{
         float: none;
     }
@@ -585,6 +601,7 @@ li > a:hover::before{
     .hb-button{
         display: inline;
     }
+
 }
 
 /*COLLAPSE MEDIA QUERIES */
