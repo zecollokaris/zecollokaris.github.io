@@ -4,7 +4,7 @@ $(document).ready(function () {
     });
 });
 
-
+// CUROSEL FOR IMAGE SLIDER
 var slides = $('.slide');
 
 var flag = 0;
@@ -31,7 +31,7 @@ function show(){
     }
 }
 
-
+// MOUSE SLIDER WITH MY SKILLS INFO
 document.addEventListener('DOMContentLoaded', function(){
   let wrapper = document.getElementById('wrapper');
   let topLayer = wrapper.querySelector('.top');
