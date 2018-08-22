@@ -28,13 +28,17 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 
 body {
-
+  background-image: url('../images/background.jp');
+  background-size: co
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
+  
   
 }
 
@@ -453,12 +457,9 @@ li > a:hover::before{
 
 /* ################################################################################################################# */
 /* ################################################################################################################# */
-       
-
         /* CONTENT SLIDER */
 
-
-                   
+       
 #wrapper{
   position: relative;
   width:100%;
@@ -577,10 +578,37 @@ li > a:hover::before{
 
         /* COLLAPSE CONTENT SLIDER */
 /* ################################################################################################################# */
-
+/* ################################################################################################################# */
+    /* ABOUT PAGE */
 /* ################################################################################################################# */
 
-/* ################################################################################################################# */
+.about-me{
+  margin-top: 20%;
+}
+
+.column1 {
+  float: left;
+  width: 45%;
+  text-align: center;
+  
+  margin-left: 3%;
+}
+
+.column2 {
+  float: right;
+  width: 45%;
+  text-align: center;
+  margin-right: 3%
+}
+
+#aboutline {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 9px solid yellow;
+  margin: 1em 0;
+  padding: 0;
+}
 
 /* ################################################################################################################# */
 
@@ -596,12 +624,31 @@ li > a:hover::before{
 /* ################################################################################################################# */
 
 /* MEDIA QUERIES */
-@media screen and (max-width:768px){
 
-    
+/* Small devices (tablets, 768px and up) */
+        /* MEDIA QRYS */
+
+
+/* ----------------------------------------------- */
+/* Large devices (large desktops,) */
+@media (max-width:1200px ) {
 
 }
-@media screen and (max-width:768px){
+
+
+/* ----------------------------------------------- */
+
+/* MEDIUM DEVICES (desktops,) */
+@media (max-width:992px ) {
+
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+@media screen and (max-width:767px){
 
     .body{
         font-size: 75%;
@@ -626,6 +673,13 @@ li > a:hover::before{
         display: inline;
     }
 
+}
+
+
+/* ----------------------------------------------- */
+/* LARGER PHONES */
+@media (max-width:700px ) {
+  
 }
 
 /*COLLAPSE MEDIA QUERIES */
