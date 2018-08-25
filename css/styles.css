@@ -38,7 +38,7 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  
+  overflow: auto;
   
 }
 
@@ -317,7 +317,7 @@ li > a:hover::before{
 
 /* Image on nav bar class */
 .logoimg{
-    height: 10vh;
+    height: 7vh;
 }
 /*Collapse Image on nav bar class */
 
@@ -452,6 +452,10 @@ li > a:hover::before{
     padding-top: 2%;
 }
 
+#tag-image{
+    height: 14%;
+    width: 14%;
+}
 
 /* COLLAPSE HOME INTRO SECTION */
 
@@ -566,11 +570,6 @@ li > a:hover::before{
   margin-left:700px;
 }
 
-@media(max-width:768px){
-  body{
-    font-size:75%;
-  }
-}
 
 
 
@@ -611,10 +610,14 @@ li > a:hover::before{
 }
 
 .aboutima{
-  height: 400;
+  height: 500;
   width: 500;
-  margin-top: 17%;
+  margin-top: 50%;
 }
+/* Image is not seen in large screens */
+ .about-intro-image{
+   display: none;
+ }
 
 /* ################################################################################################################# */
 
@@ -638,6 +641,13 @@ li > a:hover::before{
 /* ----------------------------------------------- */
 /* Large devices (large desktops,) */
 @media (max-width:1200px ) {
+  /* About Page */
+ .aboutima{
+    margin-top: 60%;
+  }
+ .about-intro-image{
+   display: none;
+ }
 
 }
 
@@ -646,9 +656,40 @@ li > a:hover::before{
 
 /* MEDIUM DEVICES (desktops,) */
 @media (max-width:992px ) {
+    /* About Page */
+   .aboutima{
+    margin-top: 100%;
+    height: 500;
+    width: 500;
+  }
+  /* Image Slider At Home */
+    .box{
+    height: 60vh;
+  }
+  .slider{
+    height: 58vh;
+  }
+
 
 }
 
+/* ----------------------------------------------- */
+
+
+@media (max-width:860px ) {
+    /* About Page */
+   .aboutima{
+    margin-top: 70%;
+    height: 400;
+    width: 400;
+  }
+  .box{
+    height: 60vh;
+  }
+  .slider{
+    height: 58vh;
+  }
+}
 
 
 /* ----------------------------------------------- */
@@ -659,6 +700,8 @@ li > a:hover::before{
     .body{
         font-size: 75%;
     }
+
+    /* NAV-BAR */
     .logo-section{
         float: none;
     }
@@ -678,21 +721,254 @@ li > a:hover::before{
     .hb-button{
         display: inline;
     }
+    .logoimg{
+    height: 5vh;
+    float: left;
+}
+
+    /*ABOUT ME PAGE! */
+    .aboutima img{
+    margin-top: 50%;
+    height: 120%;
+    width: 120%;
+
+    /*Image Slider Curosel At home!*/
+  .box{
+    height: 55vh;
+  }
+  .slider{
+    height: 53vh;
+  }
+
 
 }
 
 
 /* ----------------------------------------------- */
+
 /* LARGER PHONES */
 @media (max-width:700px ) {
+    /*ABOUT ME PAGE! */
+    .aboutima img{
+    margin-top: 50%;
+    height: 120%;
+    width: 120%;
+}
+
+    .column1{
+      float none;
+      width: 100%;
+    }
+
+    .column2{
+      float: none;
+      display: none;
+    }
+    .about-intro-image{
+    display: block;
+    height: 100%;
+    width: 100%;
+ }
+     /*Image Slider Curosel At home!*/
+  .box{
+    height: 50vh;
+  }
+  .slider{
+    height: 48vh;
+  }
+
+
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:600px ) {
+  /* ABOUT PAGE */
+  #headerabout{
+    height: 80%;
+    width: 80%;
+    margin-left:10%;
+ }
+
+     /*Image Slider Curosel At home!*/
+  .box{
+    margin-left: 1%;
+  }
+  .slider{
+    margin-left: 1%;
+  }
+
+  /* Home Section */
+  #tag-image{
+    height: 17%;
+    width: 17%;
+}
+
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:550px ) {
+
+    /*Image Slider Curosel At home!*/
+  .box{
+    height: 47vh;
+    margin-left: -1%;
+    margin-top: 9%;
+  }
+  .slider{
+    height: 45vh;
+    margin-left: -1%;
+    margin-top: 9%;
+  }
+.logoimg{
+  display: none;
+}
+/* Navbar Displayvbutton */
+.hb-button{
+  margin-right: -5%;
+}
+
+#load{
+  display: none;
+}
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:500px ) {
+.body{
+  font-size: 12px;
+}
+
+/* Nav-Bar Profile image */
+.logoimg{
+    height: 4vh;
+}
+
+  /* ABOUT PAGE */
+.about{
+  width: 110%;
+  padding-right: 10%;
+}
+
+    /*Image Slider Curosel At home!*/
+  .box{
+    height: 35vh;
+    margin-left: 1%;
+  }
+  .slider{
+    height: 33vh;
+    margin-left: 1%;
+  }
+  /* Navbar Display button */
+.hb-button{
+  margin-right: -6%;
+}
+  /* Home Section */
+#tag-image{
+    height: 18%;
+    width: 18%;
+}
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:450px ) {
+
+    /* Navbar Display button */
+.hb-button{
+  float: left;
+}
+    /*Image Slider Curosel At home!*/
+  .box{
+    height: 35vh;
+    margin-left: -4%;
+    width: 110%;
+  }
+  .slider{
+    height: 33vh;
+    margin-left: -4%;
+    width: 110%;
+  }
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:400px ) {
+.body{
+  font-size: 11px;
+}
+#about-txt-intro{
+  font-size: 20px;
+}
+
+    /*Image Slider Curosel At home!*/
+  .box{
+    height: 36vh;
+    width: 125%;
+    margin-left: -7%;
+  }
+  .slider{
+    height: 35vh;
+    width: 120%;
+    margin-left: -7%;
+  }
+    /* Home Section */
+#tag-image{
+    height: 20%;
+    width: 20%;
+}
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:350px ) {
+      /*Image Slider Curosel At home!*/
+  .box{
+    height: 36vh;
+    width: 120%;
+    margin-left: -8%;
+  }
+  .slider{
+    height: 35vh;
+    width: 120%;
+    margin-left: -8%;
+  }
+
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:330px ) {
+
+    /*Image Slider Curosel At home!*/
+  .box{
+    height: 36vh;
+    width: 125%;
+    margin-left: -7%;
+  }
+  .slider{
+    height: 35vh;
+    width: 125%;
+    margin-left: -7%;
+  }
 
 }
 
 /*COLLAPSE MEDIA QUERIES */
 /* ################################################################################################################# */
-I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding, tweeting or pushing pixels,
-you'll find me cooking, gardening or working out in the park.
-
 
 
 
