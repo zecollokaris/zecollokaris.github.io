@@ -645,15 +645,488 @@ li > a:hover::before{
 
 /* ----------------------------------------------- */
 
-/* Large devices (large desktops,) */
-@media (max-width:1500px ) {
-  /* SKill-Section */
-}
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1600px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1290px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 37%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 75%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 40%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:30%;
+                }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
 
 
 
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1550px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1250px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 37%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 75%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 41%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:30%;
+                }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
 
 
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1500px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1215px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 37%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 75%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 44%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:30%;
+                }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1450px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1185px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 40%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 75%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 39%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:25%;
+                }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1400px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1205px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 40%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 78%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 39%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:25%;
+                }
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 65%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1350px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1205px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 40%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 79%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 42%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:25%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 62%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1300px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1205px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 40%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 79%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 43%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:25%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 59%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1250px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1205px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 40%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 81%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 45%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:25%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 56%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
 
 
 /* ----------------------------------------------- */
@@ -669,6 +1142,414 @@ li > a:hover::before{
  }
 
 }
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1200px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1205px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 36%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 81%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 48%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:25%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 64%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1150px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1200px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 36%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 82%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 48%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:26%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 61%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1150px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1190px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 36%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 82%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 48%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:26%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 62%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1100px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1190px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 36%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 86%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 50%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:26%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 59%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1050px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1190px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 36%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 87%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 50%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:26%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 55%;
+                z-index:3;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:1000px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1190px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 36%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 88%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 53%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:29%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 67%;
+                z-index:3;
+              }
+              .skewed{
+                font-size: 12px;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+
 
 
 /* ----------------------------------------------- */
@@ -691,6 +1572,150 @@ li > a:hover::before{
 
 
 }
+
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:950px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1150px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 36%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 89%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 53%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:29%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 67%;
+                z-index:3;
+              }
+              .skewed{
+                font-size: 12px;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
+
+/*#################################################################################### */
+/*#################################################################################### */
+                /* SKILL SECTION SLIDER MEDIA QUERY */
+/*#################################################################################### */
+
+                @media (max-width:900px ) {
+                  /* SKILL SECTION */
+
+                  /* Main section with BLACK containing content*/
+                  .skewed .top{
+                  transform: skew(-30deg);
+                  margin-left:-1140px;
+                  width: calc(50vw + 1000px);
+                }
+
+                /* Main section with WHITE containing content*/
+                .skewed .top .content-wrap{
+                  transform: skew(30deg);
+                  margin-left:700px;
+                }
+                  /* Image under BLACK background */
+                .imageone{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 37%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Image under WHITE background */
+                .imagetwo{
+                  position: absolute;
+                  width: 18%;
+                  top: 30%;
+                  left: 91%;
+                  transform: translate(-50%, -50%);
+
+                }
+
+                /* Text within WHITE background section */
+                .top .content-body{
+                  left: 56%;
+                  color:#222;
+                }
+
+                /* Text within BLACK background section */
+                .bottom .content-body{
+                  right:26%;
+                }
+
+                /* YELLOW SLIDER */
+                .handle{
+                position: absolute;
+                height: 100%;
+                display: block;
+                background-color: #FDAB00;
+                width:5px;
+                top:0;
+                left: 64%;
+                z-index:3;
+              }
+              .skewed{
+                font-size: 12px;
+              }
+                }
+/*#################################################################################### */
+/*#################################################################################### */
+
+
 
 /* ----------------------------------------------- */
 
