@@ -51,3 +51,15 @@ document.addEventListener('DOMContentLoaded', function(){
     topLayer.style.width= e.clientX + skew + delta + 'px';
   });
 });
+
+
+/* SKILL SECTION */
+$("figure").mouseleave(
+    function () {
+        $(this).removeClass("hover");
+    }
+);
+
+
+
+
