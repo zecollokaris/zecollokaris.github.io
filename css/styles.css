@@ -493,7 +493,7 @@ figure.snip0053 {
   text-align: center;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 220px;
+  min-width: 320px;
   max-width: 230px;
   width: 100%;
   background: #ffffff;
@@ -516,7 +516,7 @@ figure.snip0053 figcaption {
 
 figure.snip0053 figcaption h2,
 figure.snip0053 figcaption p {
-  margin: 0;
+    margin: 0;
   text-align: right;
   padding: 10px 0;
   right: 0;
@@ -622,9 +622,7 @@ figure.snip0053.hover:after {
   padding: 5px;
 }
 
-.row{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
+
 
 .row::after {
     content: "";
@@ -633,16 +631,21 @@ figure.snip0053.hover:after {
     
 }
 
-
-.skills{
-  margin-top: 30%;
+.amg-skills {
+  max-width: 960px;
 }
-
-.column img{
-  width: 50px;
+.amg-badge-collection {
+  background: white;
+}	
+.amg-badge {
+  padding: 20px 5%;
 }
-
-
+.amg-badge h3 {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
 
 
@@ -808,15 +811,19 @@ figure.snip0053.hover:after {
     margin-top: 50%;
     height: 120%;
     width: 120%;
-
+    }
     /*Image Slider Curosel At home!*/
+
   .box{
     height: 55vh;
   }
   .slider{
     height: 53vh;
   }
-
+/* SKILL SECTION */
+  .column{
+  height: 50%;
+}
 
 }
 
@@ -854,12 +861,27 @@ figure.snip0053.hover:after {
   .slider{
     height: 48vh;
   }
-
+  /* Skills Section */
+  .skills{
+    
+  }
+  .skills-two{
+    display: block;
+  }
 
 }
 
 
+/* ----------------------------------------------- */
 
+
+
+@media only screen and (max-width : 639px) {
+  .amg-badge {
+    width: 50%;
+    padding: 0px 10%;
+  }
+}
 
 /* ----------------------------------------------- */
 
