@@ -659,6 +659,8 @@ figure.snip0053.hover:after {
 }
 
 
+
+
         /* COLLAPSE SKILL SECTION */
 /* ################################################################################################################# */
 /* ################################################################################################################# */
@@ -754,6 +756,9 @@ figure.snip0053.hover:after {
   .slider{
     height: 58vh;
   }
+  .codetext{
+    height: 18vh;
+  }
 
 
 }
@@ -777,6 +782,11 @@ figure.snip0053.hover:after {
   .slider{
     height: 58vh;
   }
+
+  .skillcontainer {
+    margin-top: 35%;
+  }
+
 }
 
 
@@ -834,6 +844,14 @@ figure.snip0053.hover:after {
   .column{
   height: 50%;
 }
+  .codetext {
+    height: 17vh;
+  }
+
+  .skillcontainer {
+    margin-top: 38%;
+  }
+
 
 }
 
@@ -851,7 +869,7 @@ figure.snip0053.hover:after {
 }
 
     .column1{
-      float none;
+      float: none;
       width: 100%;
     }
 
@@ -879,6 +897,10 @@ figure.snip0053.hover:after {
     display: block;
   }
 
+  .codetext {
+    height: 16vh;
+  }
+
 }
 
 
@@ -891,6 +913,13 @@ figure.snip0053.hover:after {
     width: 50%;
     padding: 0px 10%;
   }
+    .codetext {
+      height: 16vh;
+    }
+
+      .skillcontainer {
+        margin-top: 53%;
+      }
 }
 
 /* ----------------------------------------------- */
@@ -917,6 +946,13 @@ figure.snip0053.hover:after {
     height: 17%;
     width: 17%;
 }
+  .codetext {
+    height: 15vh;
+  }
+
+  .skillcontainer {
+    margin-top: 55%;
+  }
 
 }
 
@@ -950,6 +986,14 @@ figure.snip0053.hover:after {
 #load{
   display: none;
 }
+
+.codetext {
+  height: 14vh;
+}
+
+  .skillcontainer {
+    margin-top: 65%;
+  }
 }
 
 
@@ -991,6 +1035,15 @@ figure.snip0053.hover:after {
     height: 18%;
     width: 18%;
 }
+
+.codetext {
+  height: 13vh;
+}
+
+  .skillcontainer {
+    margin-top: 75%;
+  }
+
 }
 
 
@@ -1016,6 +1069,15 @@ figure.snip0053.hover:after {
     margin-left: -4%;
     width: 110%;
   }
+
+  .codetext {
+    height: 12vh;
+  }
+
+  .skillcontainer {
+    margin-top: 95%;
+  }
+
 }
 
 /* ----------------------------------------------- */
@@ -1048,6 +1110,14 @@ figure.snip0053.hover:after {
 #hellotxt{
   font-size: 23px;
 }
+
+  .codetext {
+    height: 11vh;
+  }
+
+  .skillcontainer {
+    margin-top: 95%;
+  }
 }
 
 
@@ -1067,6 +1137,14 @@ figure.snip0053.hover:after {
     margin-left: -8%;
   }
 
+    .codetext {
+      height: 10vh;
+    }
+
+    .skillcontainer {
+      margin-top: 125%;
+    }
+
 }
 
 /* ----------------------------------------------- */
@@ -1085,6 +1163,15 @@ figure.snip0053.hover:after {
     width: 125%;
     margin-left: -7%;
   }
+
+    .codetext {
+      height: 9vh;
+    }
+
+    .skillcontainer {
+      margin-top: 145%;
+    }
+
 
 }
 
