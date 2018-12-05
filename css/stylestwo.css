@@ -286,17 +286,17 @@ html {
 }
 
 .slider-content .fake-bg.red {
-    background-image: url(../images/xmen.png);
+    background-image: url(../images/codeworkslider/social.png);
     background-color: #ee4654;
 }
 
 .slider-content .fake-bg.blue {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/aline-weber_copy.png);
+    background-image: url(../images/codeworkslider/cryptobyte.png);
     background-color: #6989e0;
 }
 
 .slider-content .fake-bg.green {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/miranda-kerr.png);
+    background-image: url(../images/codeworkslider/photosynthetic.png);
     background-color: #6cd779;
 }
 
