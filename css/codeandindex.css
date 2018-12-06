@@ -407,112 +407,13 @@ li>a:hover::before {
 /*  IMAGE SLIDER AT THE TOP */
 /* ################################################################################################################# */
 
-
-.slider {
-    position: relative;
-    width: 100%;
-    height: 71vh;
-    box-shadow: -1px 6px 48px -6px rgba(0, 0, 0, 0.26);
-    margin: auto;
-    overflow: hidden;
-}
-
-.slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform: translate(-100%, 0%);
-}
-
-.active {
-    transform: translate(0, 0);
-}
-
-.active~.slide {
-    transform: translate(100%, 0);
-
-}
-
-/* SLIDER IMAGES */
-.s1 {
-    background: url('../images/slide1.JPG');
-    background-size: 100% 100%;
-}
-
-.s2 {
-    background: url('../images/slide2.JPG');
-    background-size: 100% 100%;
-}
-
-.s3 {
-    background: url('../images/slide3.JPG');
-    background-size: 100% 100%;
-}
-
-.s4 {
-    background: url('../images/slide4.jpg');
-    background-size: 100% 100%;
-}
-
-.s5 {
-    background: url('../images/slide5.JPG');
-    background-size: 100% 100%;
-}
-
-.s6 {
-    background: url('../images/slide6.jpg');
-    background-size: 100% 100%;
-}
-
-.box {
-    width: 100%;
-    height: 73vh;
-    background: url('../images/boxflwpatt.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: 999;
-    -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 80%, 93% 85%, 8% 95%, 15% 6%, 89% 22%, 93% 85%, 100% 80%, 100% 0%, 0% 0%, 0% 100%);
-    transition: all 1s;
-    background-attachment: fixed;
-}
-
 /* COLLAPSE SLIDER IMAGES */
 /* ################################################################################################################# */
 /* ################################################################################################################# */
 /* HOME CONTENT SECTION */
 /* ################################################################################################################# */
 
-/* HOME INTRO SECTION */
 
-#home-intro {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-bottom: 5px solid yellow;
-    margin: 1em 0;
-    width: 100px;
-}
-
-#quotetxt {
-    margin-top: 10%;
-    font-family: 'Courgette', cursive;
-}
-
-#quoteline {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 5px solid yellow;
-}
-
-.intro-description {
-    padding-top: 2%;
-}
-
-#tag-image {
-    height: 14%;
-    width: 14%;
 }
 
 /* COLLAPSE HOME INTRO SECTION */
@@ -521,230 +422,6 @@ li>a:hover::before {
 /* ################################################################################################################# */
 /* SKILL SECTION */
 
-
-
-figure.snip0053 {
-    font-family: 'Raleway', Arial, sans-serif;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-    margin: 10px 1%;
-    min-width: 320px;
-    max-width: 230px;
-    width: 100%;
-    background: #ffffff;
-    color: #000000;
-}
-
-figure.snip0053 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-figure.snip0053>img {
-    width: 100%;
-}
-
-figure.snip0053 figcaption {
-    padding: 20px 30px 20px 25%;
-    position: relative;
-}
-
-figure.snip0053 figcaption h2,
-figure.snip0053 figcaption p {
-    margin: 0;
-    text-align: right;
-    padding: 10px 0;
-    right: 0;
-    width: 100%;
-}
-
-figure.snip0053 figcaption h2 {
-    font-size: 1.3em;
-    font-weight: 300;
-    text-transform: uppercase;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-figure.snip0053 figcaption h2 span {
-    font-weight: 800;
-}
-
-figure.snip0053 figcaption p {
-    font-size: 0.9em;
-    opacity: 0.8;
-}
-
-figure.snip0053 figcaption .icons {
-    width: 100%;
-    text-align: right;
-}
-
-figure.snip0053 figcaption .icons i {
-    font-size: 26px;
-    padding: 5px;
-    top: 50%;
-    color: #000000;
-}
-
-figure.snip0053 figcaption a {
-    opacity: 0.3;
-    -webkit-transition: opacity 0.35s;
-    transition: opacity 0.35s;
-}
-
-figure.snip0053 figcaption a:hover {
-    opacity: 0.8;
-}
-
-figure.snip0053 .position {
-    width: 100%;
-    text-align: right;
-    padding: 8px 30px 13px;
-    font-size: 0.8em;
-    opacity: 0.8;
-    font-style: italic;
-}
-
-figure.snip0053:after {
-    position: absolute;
-    top: 0;
-    left: -20%;
-    height: 110%;
-    width: 30%;
-    background-color: #000000;
-    content: '';
-    border-right: 4px solid #666666;
-    -webkit-transform: skewX(-7deg) translateX(0px);
-    transform: skewX(-7deg) translateX(0px);
-    -webkit-backface-visibility: hidden;
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: -webkit-transform 0.35s, -moz-transform 0.35s, -o-transform 0.35s, transform 0.35s;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-figure.snip0053.blue:after {
-    background-color: #1b557a;
-    border-right: 4px solid #2472a4;
-}
-
-figure.snip0053.red:after {
-    background-color: #81261d;
-    border-right: 4px solid #ab3326;
-}
-
-figure.snip0053.yellow:after {
-    background-color: #a85913;
-    border-right: 4px solid #d67118;
-}
-
-figure.snip0053.green:after {
-    background-color: #19703e;
-    border-right: 4px solid #229955;
-}
-
-figure.snip0053:hover:after,
-figure.snip0053.hover:after {
-    -webkit-transform: skewX(-7deg) translateX(10px);
-    transform: skewX(-7deg) translateX(10px);
-}
-
-.skills {
-    box-sizing: border-box;
-}
-
-.column {
-    float: left;
-    width: 16.66%;
-    padding: 5px;
-}
-
-
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-.amg-skills {
-    max-width: 960px;
-}
-
-.amg-badge-collection {
-    background: white;
-}
-
-.amg-badge {
-    padding: 20px 5%;
-}
-
-.amg-badge h3 {
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.projects {
-    margin-top: 5%;
-}
-
-.skillcontainer {
-    margin-top: 25%;
-}
-
-.amg-badge {}
-
-
-
-
-/* COLLAPSE SKILL SECTION */
-/* ################################################################################################################# */
-/* ################################################################################################################# */
-/* ABOUT PAGE */
-/* ################################################################################################################# */
-
-.about-me {
-    margin-top: 1%;
-}
-
-.column1 {
-    float: left;
-    width: 45%;
-    text-align: center;
-
-    margin-left: 3%;
-}
-
-.column2 {
-    float: right;
-    width: 45%;
-    text-align: center;
-    margin-right: 3%
-}
-
-#aboutline {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 9px solid yellow;
-    margin: 1em 0;
-    padding: 0;
-}
-
-.aboutima {
-    height: 500;
-    width: 500;
-    margin-top: 50%;
-}
-
-/* Image is not seen in large screens */
-.about-intro-image {
-    display: none;
-}
 
 /* ################################################################################################################# */
 
@@ -770,14 +447,7 @@ figure.snip0053.hover:after {
 /* Large devices (large desktops,) */
 @media (max-width:1200px) {
 
-    /* About Page */
-    .aboutima {
-        margin-top: 60%;
-    }
 
-    .about-intro-image {
-        display: none;
-    }
 
 }
 
@@ -787,25 +457,7 @@ figure.snip0053.hover:after {
 /* MEDIUM DEVICES (desktops,) */
 @media (max-width:992px) {
 
-    /* About Page */
-    .aboutima {
-        margin-top: 100%;
-        height: 500;
-        width: 500;
-    }
 
-    /* Image Slider At Home */
-    .box {
-        height: 60vh;
-    }
-
-    .slider {
-        height: 58vh;
-    }
-
-    .codetext {
-        height: 18vh;
-    }
 
 
 }
@@ -818,24 +470,6 @@ figure.snip0053.hover:after {
 
 @media (max-width:860px) {
 
-    /* About Page */
-    .aboutima {
-        margin-top: 70%;
-        height: 400;
-        width: 400;
-    }
-
-    .box {
-        height: 60vh;
-    }
-
-    .slider {
-        height: 58vh;
-    }
-
-    .skillcontainer {
-        margin-top: 35%;
-    }
 
 }
 
@@ -882,35 +516,6 @@ figure.snip0053.hover:after {
     }
 }
 
-/*ABOUT ME PAGE! */
-.aboutima img {
-    margin-top: 50%;
-    height: 120%;
-    width: 120%;
-}
-
-/*Image Slider Curosel At home!*/
-
-.box {
-    height: 55vh;
-}
-
-.slider {
-    height: 53vh;
-}
-
-/* SKILL SECTION */
-.column {
-    height: 50%;
-}
-
-.codetext {
-    height: 17vh;
-}
-
-.skillcontainer {
-    margin-top: 38%;
-}
 
 
 }
@@ -922,48 +527,7 @@ figure.snip0053.hover:after {
 /* LARGER PHONES */
 @media (max-width:700px) {
 
-    /*ABOUT ME PAGE! */
-    .aboutima img {
-        margin-top: 50%;
-        height: 120%;
-        width: 120%;
-    }
 
-    .column1 {
-        float: none;
-        width: 100%;
-    }
-
-    .column2 {
-        float: none;
-        display: none;
-    }
-
-    .about-intro-image {
-        display: block;
-        height: 100%;
-        width: 100%;
-    }
-
-    /*Image Slider Curosel At home!*/
-    .box {
-        height: 50vh;
-    }
-
-    .slider {
-        height: 48vh;
-    }
-
-    /* Skills Section */
-    .skills {}
-
-    .skills-two {
-        display: block;
-    }
-
-    .codetext {
-        height: 16vh;
-    }
 
 }
 
@@ -973,18 +537,7 @@ figure.snip0053.hover:after {
 
 
 @media only screen and (max-width : 639px) {
-    .amg-badge {
-        width: 50%;
-        padding: 0px 10%;
-    }
 
-    .codetext {
-        height: 16vh;
-    }
-
-    .skillcontainer {
-        margin-top: 53%;
-    }
 }
 
 /* ----------------------------------------------- */
@@ -992,35 +545,7 @@ figure.snip0053.hover:after {
 
 @media (max-width:600px) {
 
-    /* ABOUT PAGE */
-    #headerabout {
-        height: 80%;
-        width: 80%;
-        margin-left: 10%;
-    }
 
-    /*Image Slider Curosel At home!*/
-    .box {
-        margin-left: 1%;
-    }
-
-    .slider {
-        margin-left: 1%;
-    }
-
-    /* Home Section */
-    #tag-image {
-        height: 17%;
-        width: 17%;
-    }
-
-    .codetext {
-        height: 15vh;
-    }
-
-    .skillcontainer {
-        margin-top: 55%;
-    }
 
 }
 
@@ -1032,22 +557,6 @@ figure.snip0053.hover:after {
 
 @media (max-width:550px) {
 
-    /*Image Slider Curosel At home!*/
-    .box {
-        height: 47vh;
-        margin-left: -1%;
-        margin-top: 9%;
-    }
-
-    .slider {
-        height: 45vh;
-        margin-left: -1%;
-        margin-top: 9%;
-    }
-
-    .logoimg {
-        display: none;
-    }
 
     /* Navbar Displayvbutton */
     .hb-button {
@@ -1082,41 +591,13 @@ figure.snip0053.hover:after {
         height: 4vh;
     }
 
-    /* ABOUT PAGE */
-    .about {
-        width: 110%;
-        padding-right: 10%;
-    }
-
-    /*Image Slider Curosel At home!*/
-    .box {
-        height: 35vh;
-        margin-left: 1%;
-    }
-
-    .slider {
-        height: 33vh;
-        margin-left: 1%;
-    }
 
     /* Navbar Display button */
     .hb-button {
         margin-right: -6%;
     }
 
-    /* Home Section */
-    #tag-image {
-        height: 18%;
-        width: 18%;
-    }
 
-    .codetext {
-        height: 13vh;
-    }
-
-    .skillcontainer {
-        margin-top: 75%;
-    }
 
 }
 
@@ -1133,26 +614,6 @@ figure.snip0053.hover:after {
         float: left;
     }
 
-    /*Image Slider Curosel At home!*/
-    .box {
-        height: 35vh;
-        margin-left: -4%;
-        width: 110%;
-    }
-
-    .slider {
-        height: 33vh;
-        margin-left: -4%;
-        width: 110%;
-    }
-
-    .codetext {
-        height: 12vh;
-    }
-
-    .skillcontainer {
-        margin-top: 95%;
-    }
 
 }
 
@@ -1168,36 +629,6 @@ figure.snip0053.hover:after {
         font-size: 20px;
     }
 
-    /*Image Slider Curosel At home!*/
-    .box {
-        height: 36vh;
-        width: 125%;
-        margin-left: -7%;
-    }
-
-    .slider {
-        height: 35vh;
-        width: 120%;
-        margin-left: -7%;
-    }
-
-    /* Home Section */
-    #tag-image {
-        height: 25%;
-        width: 25%;
-    }
-
-    #hellotxt {
-        font-size: 23px;
-    }
-
-    .codetext {
-        height: 11vh;
-    }
-
-    .skillcontainer {
-        margin-top: 95%;
-    }
 }
 
 
@@ -1206,26 +637,7 @@ figure.snip0053.hover:after {
 
 @media (max-width:350px) {
 
-    /*Image Slider Curosel At home!*/
-    .box {
-        height: 36vh;
-        width: 120%;
-        margin-left: -8%;
-    }
 
-    .slider {
-        height: 35vh;
-        width: 120%;
-        margin-left: -8%;
-    }
-
-    .codetext {
-        height: 10vh;
-    }
-
-    .skillcontainer {
-        margin-top: 125%;
-    }
 
 }
 
@@ -1234,26 +646,7 @@ figure.snip0053.hover:after {
 
 @media (max-width:330px) {
 
-    /*Image Slider Curosel At home!*/
-    .box {
-        height: 36vh;
-        width: 125%;
-        margin-left: -7%;
-    }
 
-    .slider {
-        height: 35vh;
-        width: 125%;
-        margin-left: -7%;
-    }
-
-    .codetext {
-        height: 9vh;
-    }
-
-    .skillcontainer {
-        margin-top: 145%;
-    }
 
 
 }

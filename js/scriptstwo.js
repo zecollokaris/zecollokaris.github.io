@@ -1,13 +1,9 @@
-
-
-/*
-You can check out original dribble shot here https://dribbble.com/shots/2375246-Fashion-Butique-slider-animation
-
-Comments or suggestions are always appreciate it. 
-*/
-
-
-
+// NAV-BAR CODE TO TOGGLE 
+$(document).ready(function () {
+    $('.hb-button').on('click', function () {
+        $('nav ul').toggleClass('show');
+    });
+});
 var mySlider = {
 
     config: {

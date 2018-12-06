@@ -790,3 +790,17 @@ li>a:hover::before {
         float: left;
     }
 }
+
+@media (max-width:550px) {
+    .hb-button {
+        margin-right: -5%;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    /* Navbar Display button */
+    .hb-button {
+        float: left;
+    }
