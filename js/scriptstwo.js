@@ -41,7 +41,7 @@ var mySlider = {
         var w = $(mySlider.config.activeSlide).width();
         var h = $(mySlider.config.activeSlide).height();
         var img = document.createElement('IMG');
-        img.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/mask-karlie.jpg";
+        img.src = "./images/codeworkslider/instalogolarge.jpg";
         var position = {
             x: 150,
             alpha: 1,
