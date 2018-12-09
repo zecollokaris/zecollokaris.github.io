@@ -271,7 +271,7 @@ html {
 }
 
 .slider-content .slide.blue {
-    background-color: #6989e0;
+    background-color: #de0606c4;
 }
 
 .slider-content .canvas {
@@ -312,7 +312,7 @@ html {
 
 .slider-content .fake-bg.blue {
     background-image: url(../images/codeworkslider/fujipic.png);
-    background-color: #630f0fc4;
+    background-color: #de0606c4;
 }
 /* #630f0fc6; */
 /* #9ae617; */
