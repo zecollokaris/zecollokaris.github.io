@@ -266,8 +266,8 @@ html {
     background-color: #6cd779;
 }
 
-.slider-content .slide.grey {
-    background-color: #bcbcbc;
+.slider-content .slide.purple {
+    background-color: #500b82cb;
 }
 
 .slider-content .slide.blue {
@@ -305,16 +305,17 @@ html {
     background-color: #6cd779;
 }
 
-.slider-content .fake-bg.grey {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/kate-moss.png);
-    background-color: #bcbcbc;
+.slider-content .fake-bg.purple {
+    background-image: url(../images/codeworkslider/game.png);
+    background-color: #500b82cb;
 }
 
 .slider-content .fake-bg.blue {
-    background-image: url(../images/codeworkslider/cryptobyte.png);
-    background-color: #6989e0;
-    /* #d7d76c */
+    background-image: url(../images/codeworkslider/fujipic.png);
+    background-color: #630f0fc4;
 }
+/* #630f0fc6; */
+/* #9ae617; */
 
 .slider-content .image-mask {
     position: absolute;
