@@ -4,6 +4,8 @@ $(document).ready(function () {
         $('nav ul').toggleClass('show');
     });
 });
+
+
 var mySlider = {
 
     config: {
