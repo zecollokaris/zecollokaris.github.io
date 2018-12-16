@@ -846,6 +846,7 @@ li>a:hover::before {
 
 .skillcontainer {
     margin-top: 25%;
+    font-size: 5vw;
 }
 
 .skillimages{
@@ -858,6 +859,7 @@ li>a:hover::before {
 
 .skillerimage {
     width: 20vh;
+    margin: 5%;
 }
 
 
@@ -1066,6 +1068,7 @@ li>a:hover::before {
     }
     .skillcontainer {
         margin-top: 85%;
+        font-size: 7vw;
     }
 
 }
@@ -1125,6 +1128,9 @@ li>a:hover::before {
 
     .skillcontainer {
         margin-top: 95%;
+    }
+    .skillpicha{
+        width: 12vw;
     }
 
 }
