@@ -655,7 +655,7 @@ figure.snip0053.hover:after {
   margin-top: 25%;
 }
 
-
+n 
 
 
 
@@ -755,7 +755,7 @@ figure.snip0053.hover:after {
     height: 58vh;
   }
   .codetext{
-    height: 18vh;
+    height: 20vh;
   }
 
 
@@ -783,6 +783,10 @@ figure.snip0053.hover:after {
 
   .skillcontainer {
     margin-top: 35%;
+  }
+
+    .codetext{
+    height: 18vh;
   }
 
 }
