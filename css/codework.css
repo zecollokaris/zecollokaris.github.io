@@ -841,9 +841,50 @@ li>a:hover::before {
 
 /* COLLAPSE NAV BAR STYLE */
 /* ################################################################################################################# */
+/* FONT WRITING WORD `CODE` */
 /* ################################################################################################################# */
-/* LOADER LANDING PAGE */
+
+.skillcontainer {
+    margin-top: 25%;
+}
+
+.skillimages{
+    text-align: center;
+}
+
+.codetext{
+    width: 7vw;
+}
+
+.skillerimage {
+    width: 20vh;
+}
+
+
+
+/* COLLAPSE NAV BAR STYLE */
 /* ################################################################################################################# */
+
+/* ----------------------------------------------- */
+
+/* MEDIUM DEVICES (desktops,) */
+@media (max-width:992px) {
+    .codetext {
+        width: 9vw;
+    }
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:860px) {
+    .codetext {
+        width: 10vw;
+    }
+}
+
+
 
 /* ----------------------------------------------- */
 
@@ -878,12 +919,31 @@ li>a:hover::before {
         height: 5vh;
         float: left;
     }
-}
 
+
+    .skillcontainer {
+        margin-top: 35%;
+    }
+
+    .codetext {
+        width: 11vw;
+    }
+}
 
 
 /* ----------------------------------------------- */
 
+
+
+/* LARGER PHONES */
+@media (max-width:700px) {
+      .codetext {
+          width: 12vw;
+      }
+}
+
+
+/* ----------------------------------------------- */
 
 
 
@@ -891,6 +951,11 @@ li>a:hover::before {
     .projectslider{
         margin-left: -3%;
     }
+
+    .codetext {
+        width: 13vw;
+    }
+    
 }
 
 
@@ -904,6 +969,14 @@ li>a:hover::before {
 @media only screen and (max-width : 600px) {
     .projectslider {
         margin-left: -8%;
+    }
+
+    .codetext {
+        width: 14vw;
+    }
+
+    .skillcontainer {
+        margin-top: 45%;
     }
 }
 
@@ -928,6 +1001,14 @@ li>a:hover::before {
         margin-left: -15%;
     }
 
+    .codetext {
+        width: 14vw;
+    }
+
+    .skillcontainer {
+        margin-top: 55%;
+    }
+
 }
 
 
@@ -949,6 +1030,17 @@ li>a:hover::before {
         margin-left: -35%;
     }
 
+    .codetext {
+        width: 13vw;
+    }
+
+    .skillimages{
+        text-align: center;
+    }
+    .skillcontainer {
+        margin-top: 55%;
+    }
+
 }
 
 
@@ -964,6 +1056,16 @@ li>a:hover::before {
     /* Project container section */
     .projectslider {
         margin-left: -40%;
+    }
+    .codetext {
+        width: 11vw;
+    }
+    .skillimages {
+        padding-left: 20%;
+        text-align: center;
+    }
+    .skillcontainer {
+        margin-top: 85%;
     }
 
 }
@@ -981,6 +1083,18 @@ li>a:hover::before {
     /* Project container section */
     .projectslider {
         margin-left: -47%;
+    }
+    .codetext {
+        width: 10vw;
+    }
+
+    .skillimages {
+        padding-left: 30%;
+        text-align: center;
+    }
+
+    .skillcontainer {
+        margin-top: 85%;
     }
 
 }
@@ -1000,8 +1114,48 @@ li>a:hover::before {
         margin-left: -55%;
     }
 
+    .codetext {
+        width: 3vh;
+    }
+
+    .skillimages {
+        padding-left: 30%;
+        text-align: center;
+    }
+
+    .skillcontainer {
+        margin-top: 95%;
+    }
+
 }
 
+
+
+
+/* ----------------------------------------------- */
+
+
+
+@media (max-width:320px) {
+
+    /* Project container section */
+    .projectslider {
+        margin-left: -55%;
+    }
+
+    .codetext {
+        width: 3vh;
+    }
+
+    .skillimages {
+        text-align: center;
+    }
+
+    .skillcontainer {
+        margin-top: 95%;
+    }
+
+}
 
 
 
