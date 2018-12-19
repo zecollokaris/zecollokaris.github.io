@@ -37,13 +37,14 @@
 
 
 body {
-  background-image: url('../images/background.jp');
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   overflow: auto;
   
 }
+
+
 
 #load {
   position:absolute;
@@ -427,8 +428,8 @@ li > a:hover::before{
 }
 
 .box{
+    height: 73vh;
     width: 100%;
-    height: 1073vh;
     background: url('../images/boxflwpatt.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -457,8 +458,9 @@ li > a:hover::before{
 }
 
 #quotetxt{
-    margin-top:10%;
+    margin-top:14%;
     font-family: 'Courgette', cursive;
+    font-size: 15px;
 }
 
 #quoteline{

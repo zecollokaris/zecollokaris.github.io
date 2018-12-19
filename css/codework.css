@@ -17,13 +17,13 @@
 
 body,
 html {
-    background: transparent;
     font-size: 6px;
     padding: 4rem 2rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: "Montserrat", sans-serif;
 }
+
 
 @media (min-width: 860px) {
 
@@ -115,6 +115,7 @@ html {
     position: relative;
     float: right;
 }
+
 
 .header-wrapper nav {
     display: block;
@@ -219,7 +220,7 @@ html {
 
 .slider-content .slider-container {
     position: relative;
-    height: 60rem;
+    height: 55rem;
 }
 
 .slider-content .slide-content {
@@ -278,6 +279,7 @@ html {
     position: absolute;
     left: 0;
     top: 0;
+    margin-top: -2rem;
 }
 
 .slider-content .fake-bg {
@@ -426,7 +428,7 @@ html {
     margin-right: auto;
     width: 50%;
     text-align: right;
-    margin-top: 25rem;
+    margin-top: 18.2rem;
     z-index: 5;
 }
 
@@ -558,7 +560,7 @@ html {
 
 .social-icons {
     position: absolute;
-    bottom: 6.7rem;
+    bottom: 8.7rem;
     left: 3rem;
     z-index: 999;
 }
@@ -789,7 +791,6 @@ nav ul {
     -moz-transition: max-height 0.5s;
     -ms-transition: max-height 0.5s;
     -o-transition: max-height 0.5s;
-
 }
 
 
@@ -1145,7 +1146,7 @@ li>a:hover::before {
 @media (max-width:320px) {
 
     /* Project container section */
-    .projectslider {
+    .slider {
         margin-left: -55%;
     }
 

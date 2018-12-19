@@ -42,12 +42,15 @@
             <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Press+Start+2P" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+            <!-- TWEENMAX JAVASCRIPT -->
             <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 
 </head>
-<body>
+<body class="demo-grid loading">
 
-    <div class="bodycontent">
+    <div class="codepage">
 
             <div class="container">
             
@@ -92,483 +95,521 @@
                 </div>
                 <!-- COLLAPSE  NAV-BAR -->
             
-
-                <!-- PROJECTS SECTION WHERE PROJECTS SLIDE THROUGH! -->
-                <div class="projectslider">
+                <div class="section">
 
 
-                        <div class="container">
-                        
+                    <!-- PROJECTS SECTION WHERE PROJECTS SLIDE THROUGH! -->
+                    <div class="projectslider">
 
-                        
-                            <div class="slider-content">
-                                <div class="header-wrapper">
-                                    <div class="header">
-                                        <div class="menu-wrapper">
-                                            <div class="menu-hamburger"></div>
-                                        </div>
-                                        <div class="nav-wrapper">
-                                            <nav>
-                                                <ul>
-                                                    <li style="font-family: 'Unlock', cursive;" >Full Stack</li>
-                                                    <li>&</li>
-                                                    <li style="font-family: 'Unlock', cursive;" >Android</li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                        
-                                    </div>
-                                </div>
-                        
-                                <div class="slider-wrapper">
-                                    <div class="slider-container">
-                                        <div class="control-nav">
-                                            <!-- Number section that counts at the right through the projects -->
-                                            <ul>
-                                                <li class="active">
-                                                    <span class="line"></span>
-                                                    <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">1 </span>
-                                                </li>
-                                                <li>
-                                                    <span class="line"></span>
-                                                    <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">2</span>
-                                                </li>
-                                                <li>
-                                                    <span class="line"></span>
-                                                    <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">3</span>
-                                                </li>
-                                                <li>
-                                                    <span class="line"></span>
-                                                    <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">4</span>
-                                                </li>
-                                                <li>
-                                                    <span class="line"></span>
-                                                    <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">5</span>
-                                                </li>
-                                                <li>
-                                                    <span class="line"></span>
-                                                    <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">6</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="lines-wrapper">
-                                            <div class="croses">
-                        
-                                                <span>+</span>
-                                                <span>+</span>
-                                                <span>+</span>
-                                                <span>+</span>
+
+                            <div class="container">
+                            
+
+                            
+                                <div class="slider-content">
+                                    <div class="header-wrapper">
+                                        <div class="header">
+                                            <div class="menu-wrapper">
+                                                <div class="menu-hamburger"></div>
                                             </div>
-                                            <!-- Horizontal and vertical thin lines -->
-                                            <span class="vertical"></span>
-                                            <span class="horizontal"></span>
-                                            <span class="horizontal"></span>
-                                            <span class="horizontal"></span>
+                                            <div class="nav-wrapper">
+                                                <nav>
+                                                    <ul>
+                                                        <li style="font-family: 'Unlock', cursive;" >Full Stack</li>
+                                                        <li>&</li>
+                                                        <li style="font-family: 'Unlock', cursive;" >Android</li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                            
                                         </div>
-                                        <div class="image-mask">
-                                            <!-- main image under background-->
-                                            <img class="" src="images/codeworkslider/social.png" alt="square around projects" />
-                                        </div>
-                                        <!-- another main image under background-->
-                                        <div class="slide active red" data-order="1" data-color="#EE4654" data-img="images/codeworkslider/social.png">
-                        
-                                            <div class="fake-bg red"></div>
-                                            <!-- This is the square around the background -->
-                                            <canvas class="canvas" data-image="images/codeworkslider/instalogolarge.jpg"></canvas>
-                                            <div class="slide-content ">
-                                                <div class="image-caption">
-                                                    <span class="line"></span>
-                                                    <!-- Line with text! -->
-                                                    <span style="font-family: 'Unlock', cursive;" >Full Stack / Python</span>
-                        
+                                    </div>
+                            
+                                    <div class="slider-wrapper">
+                                        <div class="slider-container">
+                                            <div class="control-nav">
+                                                <!-- Number section that counts at the right through the projects -->
+                                                <ul>
+                                                    <li class="active">
+                                                        <span class="line"></span>
+                                                        <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">1 </span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="line"></span>
+                                                        <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">2</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="line"></span>
+                                                        <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">3</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="line"></span>
+                                                        <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">4</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="line"></span>
+                                                        <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">5</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="line"></span>
+                                                        <span style="font-family: 'Press Start 2P', cursive; font-weight: bold;" class="number">6</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="lines-wrapper">
+                                                <div class="croses">
+                            
+                                                    <span>+</span>
+                                                    <span>+</span>
+                                                    <span>+</span>
+                                                    <span>+</span>
                                                 </div>
-                                                <div class="title-background">
-                                                    <span class="mask-wrap">
-                                                        <!-- BackGround Text -->
-                                                        <span class="mask">Insta</span>
-                                                    </span>
-                                                    <span class="mask-wrap">
-                                                        <span class="mask">Clone</span>
-                                                    </span>
-                                                </div>
-                        
-                                                <div style=" z-index: 999999;" class="title-wrapper">
-                                                    <h1>
+                                                <!-- Horizontal and vertical thin lines -->
+                                                <span class="vertical"></span>
+                                                <span class="horizontal"></span>
+                                                <span class="horizontal"></span>
+                                                <span class="horizontal"></span>
+                                            </div>
+                                            <div class="image-mask">
+                                                <!-- main image under background-->
+                                                <img class="" src="images/codeworkslider/social.png" alt="square around projects" />
+                                            </div>
+                                            <!-- another main image under background-->
+                                            <div class="slide active red" data-order="1" data-color="#EE4654" data-img="images/codeworkslider/social.png">
+                            
+                                                <div class="fake-bg red"></div>
+                                                <!-- This is the square around the background -->
+                                                <canvas class="canvas" data-image="images/codeworkslider/instalogolarge.jpg"></canvas>
+                                                <div class="slide-content ">
+                                                    <div class="image-caption">
+                                                        <span class="line"></span>
+                                                        <!-- Line with text! -->
+                                                        <span style="font-family: 'Unlock', cursive;" >Full Stack / Python</span>
+                            
+                                                    </div>
+                                                    <div class="title-background">
                                                         <span class="mask-wrap">
-                        
-                                                            <!-- Main text presented -->
-                                                            <span class="mask">Instagram</span>
+                                                            <!-- BackGround Text -->
+                                                            <span class="mask">Insta</span>
                                                         </span>
                                                         <span class="mask-wrap">
                                                             <span class="mask">Clone</span>
                                                         </span>
-                                                    </h1>
-                                                    <!-- Button -->
-                                                    <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Site</span>
+                                                    </div>
+                            
+                                                    <div style=" z-index: 999999;" class="title-wrapper">
+                                                        <h1>
+                                                            <span class="mask-wrap">
+                            
+                                                                <!-- Main text presented -->
+                                                                <span class="mask">Instagram</span>
+                                                            </span>
+                                                            <span class="mask-wrap">
+                                                                <span class="mask">Clone</span>
+                                                            </span>
+                                                        </h1>
+                                                        <!-- Button -->
+                                                        <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Site</span>
+                                                    </div>
+                            
                                                 </div>
-                        
-                                            </div>
-                                            <div class="social-icons">
-                                                <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                                <ul>
-                                                    <li>
-                                                        <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
-                                                    </li>
-                                                </ul>
+                                                <div class="social-icons">
+                                                    <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                    <ul>
+                                                        <li>
+                                                            <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
+                                                        </li>
+                                                    </ul>
 
-                                                <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                    <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                </div>
                                             </div>
-                                        </div>
-                        
-                                        <!-- Image With Main background set at CSS -->
-                                        <div class="slide yellow" data-order="2" data-color="#EE4654" data-img="images/codeworkslider/cryptobyte.png">
-                                            <div class="fake-bg yellow"></div>
-                                            <!-- This is the square around the background -->
-                                            <canvas class="canvas" data-image="images/codeworkslider/goldyellow.jpeg"></canvas>
-                                            <div class="slide-content ">
-                        
-                                                <div class="image-caption">
-                                                    <span class="line"></span>
-                                                    <!-- Line with text! -->
-                                                    <span style="font-family: 'Unlock', cursive;" >Android / Java</span>
-                        
-                                                </div>
-                        
-                                                <div class="title-background">
-                                                    <span class="mask-wrap">
-                                                        <!-- BackGround Text -->
-                                                        <span class="mask">Crypto</span>
-                                                    </span>
-                                                    <span class="mask-wrap">
-                                                        <span class="mask">Android</span>
-                                                    </span>
-                                                </div>
-                        
-                                                <div class="title-wrapper">
-                                                    <h1>
+                            
+                                            <!-- Image With Main background set at CSS -->
+                                            <div class="slide yellow" data-order="2" data-color="#EE4654" data-img="images/codeworkslider/cryptobyte.png">
+                                                <div class="fake-bg yellow"></div>
+                                                <!-- This is the square around the background -->
+                                                <canvas class="canvas" data-image="images/codeworkslider/goldyellow.jpeg"></canvas>
+                                                <div class="slide-content ">
+                            
+                                                    <div class="image-caption">
+                                                        <span class="line"></span>
+                                                        <!-- Line with text! -->
+                                                        <span style="font-family: 'Unlock', cursive;" >Android / Java</span>
+                            
+                                                    </div>
+                            
+                                                    <div class="title-background">
                                                         <span class="mask-wrap">
-                                                            <!-- Main text presented -->
-                                                            <span class="mask">CryptoByte</span>
+                                                            <!-- BackGround Text -->
+                                                            <span class="mask">Crypto</span>
                                                         </span>
                                                         <span class="mask-wrap">
                                                             <span class="mask">Android</span>
                                                         </span>
-                                                    </h1>
-                                                    <!-- Button -->
-                                                    <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Demo</span>
+                                                    </div>
+                            
+                                                    <div class="title-wrapper">
+                                                        <h1>
+                                                            <span class="mask-wrap">
+                                                                <!-- Main text presented -->
+                                                                <span class="mask">CryptoByte</span>
+                                                            </span>
+                                                            <span class="mask-wrap">
+                                                                <span class="mask">Android</span>
+                                                            </span>
+                                                        </h1>
+                                                        <!-- Button -->
+                                                        <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Demo</span>
+                                                    </div>
+                            
                                                 </div>
-                        
-                                            </div>
 
-                                            <div class="social-icons">
-                                                <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                                <ul>
-                                                    <li>
-                                                        <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
-                                                    </li>
-                                                </ul>
+                                                <div class="social-icons">
+                                                    <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                    <ul>
+                                                        <li>
+                                                            <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
+                                                        </li>
+                                                    </ul>
 
-                                                <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                    <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                </div>
+                                                
                                             </div>
-                                            
-                                        </div>
-                        
-                                        <!-- Image With Main background set at CSS -->
-                                        <div class="slide green" data-order="3" data-color="#7ffe8e" data-img="images/codeworkslider/photosynthetic.png">
-                                            <div class="fake-bg green"></div>
-                                            <!-- This is the square around the background -->
-                                            <canvas class="canvas" data-image="images/codeworkslider/greenyellow.jpg"></canvas>
-                                            <div class="slide-content ">
-                        
-                                                <div class="image-caption">
-                                                    <span class="line"></span>
-                                                    <!-- Line with text! -->
-                                                    <span style="font-family: 'Unlock', cursive;" >Full Stack / Python</span>
-                        
-                                                </div>
-                        
-                                                <div class="title-background">
-                                                    <span class="mask-wrap">
-                                                        <!-- BackGround Text -->
-                                                        <span class="mask">PhotoSy</span>
-                                                    </span>
-                                                    <span class="mask-wrap">
-                                                        <span class="mask">Django</span>
-                                                    </span>
-                                                </div>
-                        
-                                                <div class="title-wrapper">
-                                                    <h1>
+                            
+                                            <!-- Image With Main background set at CSS -->
+                                            <div class="slide green" data-order="3" data-color="#7ffe8e" data-img="images/codeworkslider/photosynthetic.png">
+                                                <div class="fake-bg green"></div>
+                                                <!-- This is the square around the background -->
+                                                <canvas class="canvas" data-image="images/codeworkslider/greenyellow.jpg"></canvas>
+                                                <div class="slide-content ">
+                            
+                                                    <div class="image-caption">
+                                                        <span class="line"></span>
+                                                        <!-- Line with text! -->
+                                                        <span style="font-family: 'Unlock', cursive;" >Full Stack / Python</span>
+                            
+                                                    </div>
+                            
+                                                    <div class="title-background">
                                                         <span class="mask-wrap">
-                                                            <!-- Main text presented -->
-                                                            <span class="mask">Photosynthetic</span>
+                                                            <!-- BackGround Text -->
+                                                            <span class="mask">PhotoSy</span>
                                                         </span>
                                                         <span class="mask-wrap">
                                                             <span class="mask">Django</span>
                                                         </span>
-                                                    </h1>
-                                                    <!-- Button -->
-                                                    <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Site</span>
+                                                    </div>
+                            
+                                                    <div class="title-wrapper">
+                                                        <h1>
+                                                            <span class="mask-wrap">
+                                                                <!-- Main text presented -->
+                                                                <span class="mask">Photosynthetic</span>
+                                                            </span>
+                                                            <span class="mask-wrap">
+                                                                <span class="mask">Django</span>
+                                                            </span>
+                                                        </h1>
+                                                        <!-- Button -->
+                                                        <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Site</span>
+                                                    </div>
+                            
                                                 </div>
-                        
+
+                                                <div class="social-icons">
+                                                    <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                    <ul>
+                                                        <li>
+                                                            <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
+                                                        </li>
+                                                    </ul>
+
+                                                    <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                </div>
+
+
                                             </div>
-
-                                            <div class="social-icons">
-                                                <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                                <ul>
-                                                    <li>
-                                                        <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
-                                                    </li>
-                                                </ul>
-
-                                                <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                            </div>
-
-
-                                        </div>
-                        
-                                        <!-- Image With Main background set at CSS -->
-                                        <div class="slide purple" data-order="4" data-color="#bcbcbc" data-img="images/codeworkslider/game.png">
-                                            <div class="fake-bg purple"></div>
-                                            <!-- This is the square around the background -->
-                                            <canvas class="canvas" data-image="images/codeworkslider/aurola2.jpg"></canvas>
-                                            <div class="slide-content ">
-                        
-                                                <div class="image-caption">
-                                                    <span class="line"></span>
-                                                    <!-- Line with text! -->
-                                                    <span style="font-family: 'Unlock', cursive;" >Unity-Game-Engine / C#</span>
-                        
-                                                </div>
-                        
-                                                <div class="title-background">
-                                                    <span class="mask-wrap">
-                                                        <!-- BackGround Text -->
-                                                        <span class="mask">Game</span>
-                                                    </span>
-                                                    <span class="mask-wrap">
-                                                        <span class="mask">Meraki</span>
-                                                    </span>
-                                                </div>
-                        
-                                                <div class="title-wrapper">
-                                                    <h1>
+                            
+                                            <!-- Image With Main background set at CSS -->
+                                            <div class="slide purple" data-order="4" data-color="#bcbcbc" data-img="images/codeworkslider/game.png">
+                                                <div class="fake-bg purple"></div>
+                                                <!-- This is the square around the background -->
+                                                <canvas class="canvas" data-image="images/codeworkslider/aurola2.jpg"></canvas>
+                                                <div class="slide-content ">
+                            
+                                                    <div class="image-caption">
+                                                        <span class="line"></span>
+                                                        <!-- Line with text! -->
+                                                        <span style="font-family: 'Unlock', cursive;" >Unity-Game-Engine / C#</span>
+                            
+                                                    </div>
+                            
+                                                    <div class="title-background">
                                                         <span class="mask-wrap">
-                                                            <!-- Main text presented -->
+                                                            <!-- BackGround Text -->
                                                             <span class="mask">Game</span>
                                                         </span>
                                                         <span class="mask-wrap">
                                                             <span class="mask">Meraki</span>
                                                         </span>
-                                                    </h1>
-                                                    <!-- Button -->
-                                                    <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Project On Github</span>
+                                                    </div>
+                            
+                                                    <div class="title-wrapper">
+                                                        <h1>
+                                                            <span class="mask-wrap">
+                                                                <!-- Main text presented -->
+                                                                <span class="mask">Game</span>
+                                                            </span>
+                                                            <span class="mask-wrap">
+                                                                <span class="mask">Meraki</span>
+                                                            </span>
+                                                        </h1>
+                                                        <!-- Button -->
+                                                        <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Project On Github</span>
+                                                    </div>
+                            
                                                 </div>
-                        
+
+
                                             </div>
-
-
-                                        </div>
-                        
-                                        <!-- Image With Main background set at CSS -->
-                                        <div class="slide blue" data-order="5" data-color="#EE4654" data-img="images/codeworkslider/fujipic.png">
-                                            <div class="fake-bg blue"></div>
-                                            <!-- This is the square around the background -->
-                                            <canvas class="canvas" data-image="images/codeworkslider/aurola.jpg"></canvas>
-                                            <div class="slide-content ">
-                        
-                                                <div class="image-caption">
-                                                    <span class="line"></span>
-                                                    <!-- Line with text! -->
-                                                    <span style="font-family: 'Unlock', cursive;" >Android / Java</span>
-                        
-                                                </div>
-                        
-                                                <div class="title-background">
-                                                    <span class="mask-wrap">
-                                                        <!-- BackGround Text -->
-                                                        <span class="mask">Pixel</span>
-                                                    </span>
-                                                    <span class="mask-wrap">
-                                                        <span class="mask">Android</span>
-                                                    </span>
-                                                </div>
-                        
-                                                <div class="title-wrapper">
-                                                    <h1>
+                            
+                                            <!-- Image With Main background set at CSS -->
+                                            <div class="slide blue" data-order="5" data-color="#EE4654" data-img="images/codeworkslider/fujipic.png">
+                                                <div class="fake-bg blue"></div>
+                                                <!-- This is the square around the background -->
+                                                <canvas class="canvas" data-image="images/codeworkslider/aurola.jpg"></canvas>
+                                                <div class="slide-content ">
+                            
+                                                    <div class="image-caption">
+                                                        <span class="line"></span>
+                                                        <!-- Line with text! -->
+                                                        <span style="font-family: 'Unlock', cursive;" >Android / Java</span>
+                            
+                                                    </div>
+                            
+                                                    <div class="title-background">
                                                         <span class="mask-wrap">
-                                                            <!-- Main text presented -->
+                                                            <!-- BackGround Text -->
                                                             <span class="mask">Pixel</span>
                                                         </span>
                                                         <span class="mask-wrap">
                                                             <span class="mask">Android</span>
                                                         </span>
-                                                    </h1>
-                                                    <!-- Button -->
-                                                    <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Demo</span>
+                                                    </div>
+                            
+                                                    <div class="title-wrapper">
+                                                        <h1>
+                                                            <span class="mask-wrap">
+                                                                <!-- Main text presented -->
+                                                                <span class="mask">Pixel</span>
+                                                            </span>
+                                                            <span class="mask-wrap">
+                                                                <span class="mask">Android</span>
+                                                            </span>
+                                                        </h1>
+                                                        <!-- Button -->
+                                                        <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Demo</span>
+                                                    </div>
+                            
                                                 </div>
-                        
+
+
+                                                <div class="social-icons">
+                                                    <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                    <ul>
+                                                        <li>
+                                                            <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
+                                                        </li>
+                                                    </ul>
+                                                
+                                                    <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                </div>
+
                                             </div>
-
-
-                                            <div class="social-icons">
-                                                <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                                <ul>
-                                                    <li>
-                                                        <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
-                                                    </li>
-                                                </ul>
-                                            
-                                                <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                            </div>
-
-                                        </div>
-                        
-                                        <!-- Image With Main background set at CSS -->
-                                        <div class="slide green" data-order="6" data-color="#7ffe8e" data-img="images/codeworkslider/photosynthetic.png">
-                                            <div class="fake-bg green"></div>
-                                            <!-- This is the square around the background -->
-                                            <canvas class="canvas" data-image="images/codeworkslider/greenyellow.jpg"></canvas>
-                                            <div class="slide-content ">
-                        
-                                                <div class="image-caption">
-                                                    <span class="line"></span>
-                                                    <!-- Line with text! -->
-                                                    <span style="font-family: 'Unlock', cursive;" >Arduino / Android</span>
-                        
-                                                </div>
-                        
-                                                <div class="title-background">
-                                                    <span class="mask-wrap">
-                                                        <!-- BackGround Text -->
-                                                        <span class="mask">RC</span>
-                                                    </span>
-                                                    <span class="mask-wrap">
-                                                        <span class="mask">Quadcopter</span>
-                                                    </span>
-                                                </div>
-                        
-                                                <div class="title-wrapper">
-                                                    <h1>
+                            
+                                            <!-- Image With Main background set at CSS -->
+                                            <div class="slide green" data-order="6" data-color="#7ffe8e" data-img="images/codeworkslider/photosynthetic.png">
+                                                <div class="fake-bg green"></div>
+                                                <!-- This is the square around the background -->
+                                                <canvas class="canvas" data-image="images/codeworkslider/greenyellow.jpg"></canvas>
+                                                <div class="slide-content ">
+                            
+                                                    <div class="image-caption">
+                                                        <span class="line"></span>
+                                                        <!-- Line with text! -->
+                                                        <span style="font-family: 'Unlock', cursive;" >Arduino / Android</span>
+                            
+                                                    </div>
+                            
+                                                    <div class="title-background">
                                                         <span class="mask-wrap">
-                                                            <!-- Main text presented -->
-                                                            <span class="mask">Falcon</span>
+                                                            <!-- BackGround Text -->
+                                                            <span class="mask">RC</span>
                                                         </span>
                                                         <span class="mask-wrap">
                                                             <span class="mask">Quadcopter</span>
                                                         </span>
-                                                    </h1>
-                                                    <!-- Button -->
-                                                    <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Demo</span>
+                                                    </div>
+                            
+                                                    <div class="title-wrapper">
+                                                        <h1>
+                                                            <span class="mask-wrap">
+                                                                <!-- Main text presented -->
+                                                                <span class="mask">Falcon</span>
+                                                            </span>
+                                                            <span class="mask-wrap">
+                                                                <span class="mask">Quadcopter</span>
+                                                            </span>
+                                                        </h1>
+                                                        <!-- Button -->
+                                                        <span style="font-family: 'Abel', sans-serif; font-weight: bold;" class="gallery">View Demo</span>
+                                                    </div>
+                            
                                                 </div>
-                        
-                                            </div>
 
-                                            <div class="social-icons">
-                                                <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                                <ul>
-                                                    <li>
-                                                        <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
-                                                    </li>
-                                                </ul>
-                                            
-                                                <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
-                                            </div>
+                                                <div class="social-icons">
+                                                    <!-- Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                    <ul>
+                                                        <li>
+                                                            <p style="margin: 5%; text-align: center; font-weight: bold; font-family: 'Abel', sans-serif;" href="">View Project On Github</p>
+                                                        </li>
+                                                    </ul>
+                                                
+                                                    <!--Collapse!! Open Links Section that can be used to fit in accounts At the bottom Rightof slider -->
+                                                </div>
 
+                                            </div>
+                            
                                         </div>
-                        
+                                    </div>
+
+
+                                    <div class="footer-wrapper">
+                                        <ul>
+                                            <li class="active box" data-id="1">
+                                                <div class="hover-box"></div>
+                                                <div class="box-content"> 
+                                                    <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">✯FULLSTACK✯</span>
+                                                    <br>
+                                                    <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Instagram Clone📱</span>
+                                                </div>
+                                            </li>
+                                            <li class="box" data-id="2">
+                                                <div class="hover-box"></div>
+                                                <div class="box-content">
+                                                    <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">❂ANDROID❂</span>
+                                                    <br>
+                                                    <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">CryptoByte🦂</span>
+        
+                                                </div>
+                                            </li>
+                                            <li class="box" data-id="3">
+                                                <div class="hover-box"></div>
+                                                <div class="box-content">
+                                                    <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">✯FULLSTACK✯</span>
+                                                    <br>
+                                                    <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">PhotoSynthetic📷</span>
+                                                </div>
+                                            </li>
+                                            <li class="box" data-id="4">
+                                                <div class="hover-box"></div>
+                                                <div class="box-content">
+                                                    <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">🎮GAME🎮</span>
+                                                    <br>
+                                                    <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Meraki👾</span>
+                                                </div>
+                                            </li>
+                                            <li class="box" data-id="5">
+                                                <div class="hover-box"></div>
+                                                <div class="box-content">
+                                                    <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">❂ANDROID❂</span>
+                                                    <br>
+                                                    <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Pixel📷</span>
+                                                </div>
+                                            </li>
+                                            <li class="box" data-id="6">
+                                                <div class="hover-box"></div>
+                                                <div class="box-content">
+                                                    <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">✈RC✈</span>
+                                                    <br>
+                                                    <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Quadcopter🚁</span>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-
-
-                                <div class="footer-wrapper">
-                                    <ul>
-                                        <li class="active box" data-id="1">
-                                            <div class="hover-box"></div>
-                                            <div class="box-content"> 
-                                                <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">✯FULLSTACK✯</span>
-                                                <br>
-                                                <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Instagram Clone📱</span>
-                                            </div>
-                                        </li>
-                                        <li class="box" data-id="2">
-                                            <div class="hover-box"></div>
-                                            <div class="box-content">
-                                                <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">❂ANDROID❂</span>
-                                                <br>
-                                                <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">CryptoByte🦂</span>
-    
-                                            </div>
-                                        </li>
-                                        <li class="box" data-id="3">
-                                            <div class="hover-box"></div>
-                                            <div class="box-content">
-                                                <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">✯FULLSTACK✯</span>
-                                                <br>
-                                                <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">PhotoSynthetic📷</span>
-                                            </div>
-                                        </li>
-                                        <li class="box" data-id="4">
-                                            <div class="hover-box"></div>
-                                            <div class="box-content">
-                                                <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">🎮GAME🎮</span>
-                                                <br>
-                                                <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Meraki👾</span>
-                                            </div>
-                                        </li>
-                                        <li class="box" data-id="5">
-                                            <div class="hover-box"></div>
-                                            <div class="box-content">
-                                                <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">❂ANDROID❂</span>
-                                                <br>
-                                                <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Pixel📷</span>
-                                            </div>
-                                        </li>
-                                        <li class="box" data-id="6">
-                                            <div class="hover-box"></div>
-                                            <div class="box-content">
-                                                <span style="font-size: 0.9vw; font-family: 'Gruppo', cursive;">✈RC✈</span>
-                                                <br>
-                                                <span style="font-size: 0.8vw; font-family: 'Dosis', sans-serif;">Quadcopter🚁</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                         
-                        </div>
+                    </div>
 
 
                 </div>
 
                 <!--COLLAPSE PROJECTS SECTION WHERE PROJECTS SLIDE THROUGH! -->
+
+
+                </div>
+
+                <!-- IMAGE BREAKUP! -->
+
+                        <svg class="hidden">
+                            <symbol id="icon-arrow" viewBox="0 0 24 24">
+                                <title>arrow</title>
+                                <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+                            </symbol>
+                            <symbol id="icon-drop" viewBox="0 0 24 24">
+                                <title>drop</title>
+                                <path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+                            </symbol>
+                        </svg>
+                        <main>
+
+                            <div class="content">
+                                <header class="content__header">
+                                    <h2 class="content__title line">Collins</h2>
+                                </header>	
+                                <div class="grid">
+                                    <div class="grid__item">
+                                        <div class="pieces" style="background-image:url(img/1b.jpg)" data-image-alt="img/1b.jpg"></div>
+                                        <h3 class="grid__item-title">Jesse Mark</h3>
+                                        <span class="grid__item-deco line">zecollo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+
+
+                <!-- COLLAPSE IMAGE BREAKUP! -->
             
 
 
 
-                <h2 class="skillcontainer" style="text-align: center; padding-bottom: 5%; font-family: 'Monoton', cursive;"><img class="skillpicha" width="50vw" src="images/skills/tools.png" alt="tool image"> Skills! <img class="skillpicha" width="50vw" src="images/skills/skill.png" alt="skill image"></h2>
+                <div class="section">
 
-                 <!-- SKILLS SECTION -->
-                <div style="background-color: rgb(254, 238, 217);" class="maincontainer">
-                    <div class="container">                        
-                        <div class="row">
-                            <div class="text-center">
-                                <div class="skills-logo">
-                                    <img class="skillerimage" src="images/skills/java.png">
-                                    <img class="skillerimage" src="images/skills/python.png">
-                                    <img class="skillerimage" src="images/skills/angular.png">
-                                    <img class="skillerimage" src="images/skills/flask.png">
-                                </div>
-                                <div style="padding-top: 1%;" class="skills-logo">
+                    <h2 class="skillcontainer" style="text-align: center; padding-bottom: 5%; font-family: 'Monoton', cursive;"><img class="skillpicha" width="50vw" src="images/skills/tools.png" alt="tool image"> Skills! <img class="skillpicha" width="50vw" src="images/skills/skill.png" alt="skill image"></h2>
 
-                                    <img class="skillerimage" src="images/skills/android.png">
-                                    <img class="skillerimage" src="images/skills/mysql.png">
-                                    <img class="skillerimage" src="images/skills/django.png">
-                                    <img class="skillerimage" src="images/skills/frontend.png">
+                    <!-- SKILLS SECTION -->
+                    <div style="background-color: bisque" class="maincontainer">
+                        <div class="container">                        
+                            <div class="row">
+                                <div class="text-center">
+                                    <div class="skills-logo">
+                                        <img class="skillerimage" src="images/skills/java.png">
+                                        <img class="skillerimage" src="images/skills/python.png">
+                                        <img class="skillerimage" src="images/skills/angular.png">
+                                        <img class="skillerimage" src="images/skills/flask.png">
+                                    </div>
+                                    <div style="padding-top: 1%;" class="skills-logo">
+
+                                        <img class="skillerimage" src="images/skills/android.png">
+                                        <img class="skillerimage" src="images/skills/mysql.png">
+                                        <img class="skillerimage" src="images/skills/django.png">
+                                        <img class="skillerimage" src="images/skills/frontend.png">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
 
 
@@ -576,11 +617,16 @@
             
             </div>
 
+                </div>
+
             
             
     </div>
 
                   
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/scriptstwo.js"></script>
     
 
