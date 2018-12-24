@@ -1827,6 +1827,7 @@ li > a:hover::before{
     .onebox {
         height: 42vh;
         min-width: 153vw;
+        
     }
 
     .oneslider {
