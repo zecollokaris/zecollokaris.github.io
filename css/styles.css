@@ -1503,6 +1503,14 @@ li > a:hover::before{
       margin-top: 90vh;
   }
 
+  /* CONTENT WITH (Title of project & View Site) */
+  .slider-content .title-wrapper {
+      margin-left: 40vw;
+      margin-right: auto;
+      z-index: 5;
+  }
+
+
 
 }
 
@@ -1534,11 +1542,11 @@ li > a:hover::before{
     /*Image Slider Curosel At home!*/
   .onebox{
     height: 42vh;
-    width: 100vw;
+    width: 96vw;
   }
   .oneslider{
     height: 40vh;
-    width: 100vw;
+    width: 93vw;
   }
   /* Navbar Display button */
 .hb-button{
@@ -1552,7 +1560,12 @@ li > a:hover::before{
 
 /* Project container section */
 .projectslider {
-    margin-left: -8vw;
+    margin-left: -1vw;
+}
+
+.slider-content {
+    margin-top: 100vh;
+    min-width: 85vw;
 }
 
 #codetitle {
@@ -1563,6 +1576,40 @@ li > a:hover::before{
 
 }
 
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:475px) {
+
+
+    /*Image Slider Curosel At home!*/
+    .onebox {
+        height: 42vh;
+        width: 96vw;
+    }
+
+    .oneslider {
+        height: 40vh;
+        width: 93vw;
+    }
+
+    /* Project container section */
+    .projectslider {
+        margin-left: -1vh;
+    }
+    .slider-content {
+        margin-top: 100vh;
+        min-width: 85vw;
+    }
+
+    #codetitle {
+        margin-left: 10%;
+    }
+
+
+
+}
 
 
 
@@ -1578,30 +1625,30 @@ li > a:hover::before{
     /*Image Slider Curosel At home!*/
   .onebox{
     height: 42vh;
-    width: 108vw;
+    width: 95vw;
   }
   .oneslider{
     height: 40vh;
-    width: 106vw;
+    width: 95vw;
   }
 
     /* Project container section */
     .projectslider {
-        margin-left: -12%;
+        margin-left: -3%;
     }
+
     .slider-content {
-        margin-top: 130vh;
+        margin-top: 110vh;
+        min-width: 85vw;
     }
 
-    #quotetxt {
-        margin-left: 8%;
+    /* CONTENT WITH (Title of project & View Site) */
+    .slider-content .title-wrapper {
+        margin-left: 40vw;
+        margin-right: auto;
+        z-index: 5;
     }
 
-    #about-txt-intro {
-        margin-left: 20%;
-    }
-
-}
 
 /* ----------------------------------------------- */
 
@@ -1612,27 +1659,25 @@ li > a:hover::before{
     /*Image Slider Curosel At home!*/
     .onebox {
         height: 42vh;
-        width: 115vw;
+        width: 95vw;
     }
 
     .oneslider {
         height: 40vh;
-        width: 113vw;
+        width: 95vw;
     }
 
     /* Project container section */
     .projectslider {
-        margin-left: -15%;
+        margin-left: -3%;
     }
 
     .slider-content {
-        margin-top: 140vh;
-        min-width: 120vw;
+        margin-top: 110vh;
+        min-width: 85vw;
     }
 
-    #quotetxt {
-        margin-left: 17%;
-    }
+    
 
 }
 
@@ -1649,16 +1694,25 @@ li > a:hover::before{
 }
 
     /*Image Slider Curosel At home!*/
-  .onebox{
-    height: 42vh;
-    min-width: 125vw;
-    margin-left: -4%;
-  }
-  .oneslider{
-    height: 40vh;
-    min-width: 123vw;
-    margin-left: -4%;
-  }
+    .onebox {
+        height: 42vh;
+        width: 95vw;
+    }
+
+    .oneslider {
+        height: 40vh;
+        width: 95vw;
+    }
+
+    /* Project container section */
+    .projectslider {
+        margin-left: -7%;
+    }
+
+    .slider-content {
+        margin-top: 90vh;
+        min-width: 90vw;
+    }
     /* Home Section */
     #tag-image{
         height: 25%;
@@ -1672,19 +1726,14 @@ li > a:hover::before{
         margin-left: 13%;
     }
 
-    /* Project container section */
-    .projectslider {
-        text-align: center;
-        margin-left: -13%;
-    }
-    .slider-content {
-        margin-top: 120vh;
-        min-width: 125vw;
+    /* CONTENT WITH (Title of project & View Site) */
+    .slider-content .title-wrapper {
+        margin-left: 45vw;
+        margin-right: auto;
+        z-index: 5;
     }
 
-    #quotetxt {
-        margin-left: 27%;
-    }
+
 
 }
 
@@ -1694,35 +1743,32 @@ li > a:hover::before{
 @media (max-width:379px) {
     /*Image Slider Curosel At home!*/
     .onebox {
-        height: 42vh;
-        min-width: 139vw;
-        margin-left: -4%;
+        height: 37vh;
+        width: 95vw;
+        margin-left: -2%;
     }
 
     .oneslider {
-        height: 40vh;
-        min-width: 137vw;
-        margin-left: -4%;
+        height: 35vh;
+        width: 95vw;
+        margin-left: -2%;
     }
 
     /* Project container section */
     .projectslider {
-        text-align: center;
-        margin-left: -12%;
-        margin-top: 12vh;
+        margin-left: -9%;
     }
+
     .slider-content {
-        margin-top: 130vh;
-        min-width: 134vw;
+        margin-top: 100vh;
+        min-width: 90vw;
     }
 
-    #quotetxt {
-        margin-left: 37%;
-    }
-
-    #about-txt-intro {
-        margin-left: 30%;
-        text-align: center;
+    /* CONTENT WITH (Title of project & View Site) */
+    .slider-content .title-wrapper {
+        margin-left: 45vw;
+        margin-right: auto;
+        z-index: 5;
     }
 
 }
@@ -1734,30 +1780,30 @@ li > a:hover::before{
 
 
 @media (max-width:350px ) {
-      /*Image Slider Curosel At home!*/
+    /*Image Slider Curosel At home!*/
     .onebox {
-        height: 42vh;
-        min-width: 145vw;
+        height: 33vh;
+        width: 95vw;
+        margin-left: -2%;
     }
 
     .oneslider {
-        height: 40vh;
-        min-width: 143vw;
+        height: 31vh;
+        width: 95vw;
+        margin-left: -2%;
     }
 
     /* Project container section */
     .projectslider {
-        margin-left: -6vh;
+        margin-left: -10%;
     }
 
     .slider-content {
-        margin-top: 120vh;
-        min-width: 144vw;
+        margin-top: 110vh;
+        min-width: 90vw;
     }
-    #quotetxt {
-        margin-left: 47%;
-    }
-    
+
+
 
 }
 
@@ -1768,23 +1814,26 @@ li > a:hover::before{
 
     /*Image Slider Curosel At home!*/
     .onebox {
-        height: 42vh;
-        min-width: 150vw;
+        height: 37vh;
+        width: 95vw;
+        margin-left: -2%;
     }
 
     .oneslider {
-        height: 40vh;
-        min-width: 148vw;
+        height: 35vh;
+        width: 95vw;
+        margin-left: -2%;
+    }
+
+    /* Project container section */
+    .projectslider {
+        margin-left: -11%;
     }
 
     .slider-content {
-        margin-top: 120vh;
-        min-width: 154vw;
+        margin-top: 110vh;
+        min-width: 90vw;
     }
-    #about-txt-intro {
-        margin-left: 30%;
-    }
-
 
 }
 
@@ -1795,21 +1844,26 @@ li > a:hover::before{
 
     /*Image Slider Curosel At home!*/
     .onebox {
-        height: 42vh;
-        min-width: 153vw;
+        height: 32vh;
+        width: 95vw;
+        margin-left: -2%;
     }
 
     .oneslider {
-        height: 40vh;
-        min-width: 151vw;
+        height: 30vh;
+        width: 95vw;
+        margin-left: -2%;
+    }
+
+    /* Project container section */
+    .projectslider {
+        margin-left: -11%;
     }
 
     .slider-content {
-        margin-top: 98vh;
-        min-width: 154vw;
+        margin-top: 110vh;
+        min-width: 90vw;
     }
-
-
 
 }
 
@@ -1825,25 +1879,26 @@ li > a:hover::before{
 
     /*Image Slider Curosel At home!*/
     .onebox {
-        height: 42vh;
-        min-width: 153vw;
+        height: 37vh;
+        width: 95vw;
+        margin-left: -2%;
     }
 
     .oneslider {
-        height: 40vh;
-        min-width: 151vw;
+        height: 35vh;
+        width: 95vw;
+        margin-left: -2%;
     }
-
 
     /* Project container section */
     .projectslider {
-        margin-left: -8vh;
-    }
-    .slider-content {
-        margin-top: 165vh;
-        min-width: 154vw;
+        margin-left: -11%;
     }
 
+    .slider-content {
+        margin-top: 130vh;
+        min-width: 90vw;
+    }
 
 
 }
@@ -1909,3 +1964,7 @@ often take weeks or months, whether it’s creating a painting or coding a softw
 fit code section to center 
 make nav bar oka
 firnish on code section
+
+
+
+Start the conversation. Every beautiful relationship starts with a simple hello. So let’s chat. It might just be the start of something memorable.

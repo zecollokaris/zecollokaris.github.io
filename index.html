@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Collins Kariuki</title>
+    <meta name="Collins" content="Portfolio" />
 
     <!-- STYLE SHEET -->
 
-    <!-- css -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Line CSS -->
+    <link rel="stylesheet" type="text/css" href="css/lines.css" />
+    <link rel="stylesheet" type="text/css" href="css/decolines.css" />
 
 
     <!-- EMOJI CSS -->
@@ -55,10 +60,11 @@
 
 
     <title>Collins Kariuki</title>
+    <meta name="Collins" content="Portfolio" />
 </head>
 
-<body onload="myFunction()">
-    <div id="fullpage">
+<body class="animate-bottom" onload="myFunction()">
+    <div class="fullpage">
         <div class="section">
 
             <div class="container">
@@ -653,10 +659,15 @@
 
                     </div>
                     <!-- COLLAPSE BODY CONTENT WITH INFORMATION -->
+                    <main>
+                        <section class="content content--related">
+                            <p style="margin-top: 200%">:</p>
+                        </section>
+                    </main>
 
                 </div>
 
-                
+
 
                 </div>
                 <!--COLLAPSE PAGE CONTENT -->
@@ -679,12 +690,37 @@
                         document.getElementById("loader").style.display = "none";
                         document.getElementById("content").style.display = "block";
                     }
+
                 </script>
                 <script src="js/scripts.js"></script>
-                <script src="js/projectslider.js"></script>
+                <script src="js/anime.min.js"></script>
+                <script src="js/line.js"></script>
+                <script src="js/projectslider.js"></script> 
+
+                <script>
+                    (function () {
+                            var lineMaker = new LineMaker({
+                                lines: [
+                                    { top: 0, left: '10vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 5500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+                                    { top: 0, left: '30vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 2500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+                                    { top: 0, left: '50vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 3500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+                                    { top: 0, left: '70vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 5500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+                                    { top: 0, left: '90vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 1500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+                                    { top: '20em', left: 0, width: '100%', height: 1, color: '#ccc', hidden: true, animation: { duration: 1500, easing: 'easeInOutExpo', delay: 200, direction: 'LeftRight' } }
+                                ]
+                            });
+
+                            setTimeout(function () {
+                                lineMaker.animateLinesIn();
+                            }, 0);
+                        })();
+                </script>
             </div>
 
+
         </div>
+
+    </div>
 </body>
 
 </html>
