@@ -1826,6 +1826,7 @@ li > a:hover::before{
         margin-right: 2rem;
     }
 
+    /* VIEW PROJECT ON GITHUB */
     /* Line before View Project On Github Button */
     .social-icons::before {
         left: 0.5rem;
@@ -1835,6 +1836,19 @@ li > a:hover::before{
     .social-icons::after {
         right: -1rem;
     }
+
+    /* VIEW SITE */
+    /* Line Before View Site Button */
+    .slider-content .title-wrapper span.gallery::before {
+        left: 0.5rem;
+    }
+
+    /* Line After View Site Button! */
+    .slider-content .title-wrapper span.gallery::after {
+        right: 0.5rem;
+    }
+
+
     /* TEXT (View Project On Github!) */
     .social-icons {
         left: 1rem;
@@ -1877,6 +1891,8 @@ li > a:hover::before{
         margin-left: -50%;
         font-size: 1.0rem;
     }
+
+    /* VIEW PROJECT ON GITHUB */
     /* Line before View Project On Github Button */
     .social-icons::before {
         left: 1rem;
@@ -1885,6 +1901,18 @@ li > a:hover::before{
     /* Line After View Project On Github Button */
     .social-icons::after {
         right: -0.5rem;
+    }
+
+
+    /* VIEW SITE */
+    /* Line Before View Site Button */
+    .slider-content .title-wrapper span.gallery::before {
+        left: 1rem;
+    }
+
+    /* Line After View Site Button! */
+    .slider-content .title-wrapper span.gallery::after {
+        right: 1rem;
     }
 
 }
