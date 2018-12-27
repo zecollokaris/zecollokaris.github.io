@@ -971,10 +971,11 @@ li > a:hover::before{
 }
 
 .slider-content .title-wrapper span.gallery:hover {
-    color: rgba(0, 0, 0, 0.388);
+    color: rgba(255, 255, 255, 0.601);
 }
 
 
+/* Line Before View Site Button */
 .slider-content .title-wrapper span.gallery::before {
     content: "";
     position: absolute;
@@ -987,6 +988,7 @@ li > a:hover::before{
     opacity: 0.9;
 }
 
+/* Line After View Site Button! */
 .slider-content .title-wrapper span.gallery::after {
     content: "";
     position: absolute;
@@ -998,6 +1000,7 @@ li > a:hover::before{
     top: -0.5rem;
     opacity: 0.9;
 }
+
 
 .control-nav {
     position: absolute;
