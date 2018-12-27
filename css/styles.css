@@ -1001,7 +1001,7 @@ li > a:hover::before{
     opacity: 0.9;
 }
 
-
+/* Counter Besides Projects! */
 .control-nav {
     position: absolute;
     right: 3rem;
@@ -1477,6 +1477,15 @@ li > a:hover::before{
       margin-left: -30%;
   }
 
+ /* Conter Besides Projects! */
+  .control-nav {
+      left: 3rem;
+  }
+  /* Conter Numbers */
+  .control-nav .number {
+      left: -15rem;
+  }
+
 }
 
 
@@ -1680,6 +1689,15 @@ li > a:hover::before{
         margin-left: -40%;
     }
 
+    /* COUNTER */
+     /* Conter Besides Projects! */
+     .control-nav {
+         left: 3rem;
+     }
+     /* Conter Numbers */
+     .control-nav .number {
+         left: -13rem;
+     }
 
 }
 
@@ -1848,10 +1866,20 @@ li > a:hover::before{
         right: 0.5rem;
     }
 
-
     /* TEXT (View Project On Github!) */
     .social-icons {
         left: 1rem;
+    }
+
+    /* COUNTER */
+    /* Conter Besides Projects! */
+    .control-nav {
+        left: 3rem;
+    }
+
+    /* Conter Numbers */
+    .control-nav .number {
+        left: -11rem;
     }
 
 }
@@ -1973,6 +2001,16 @@ li > a:hover::before{
     .slider-content {
         margin-top: 110vh;
         min-width: 90vw;
+    }
+    /* COUNTER */
+    /* Conter Besides Projects! */
+    .control-nav {
+        left: 3rem;
+    }
+
+    /* Conter Numbers */
+    .control-nav .number {
+        left: -9rem;
     }
 
 }
