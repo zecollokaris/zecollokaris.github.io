@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Collins Art</title>
+		<meta name="author" content="Collins Art" />
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/artwork.css" />
+
+		<!-- GOOOGLE FONTS LINK -->
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="demo-gallery loading">
+		<main>
+			<div class="message">Please view this Art Demo on a desktop.</div>
+			<div class="content">
+				<div class="deco-letter">ZE</div>
+				<div class="deco-letter">CO</div>
+				<div class="deco-letter">LLO</div>
+				<div class="deco-letter">R</div>
+				<div class="deco-letter">T</div>
+				<div class="deco-letter">A</div>
+				<div class="gallery">
+					<div class="gallery__item pieces gallery__item--current" style="background-image: url(img/g1.jpg)"></div>
+					<div class="gallery__item pieces" style="background-image: url(img/g2.jpg)"></div>
+					<div class="gallery__item pieces" style="background-image: url(img/g3.jpg)"></div>
+					<div class="gallery__item pieces" style="background-image: url(img/g4.jpg)"></div>
+					<div class="gallery__item pieces" style="background-image: url(img/g5.jpg)"></div>
+				</div>
+				<nav class="gallery-nav">
+					<span class="gallery-nav__item gallery-nav__item--current"></span>
+					<span class="gallery-nav__item"></span>
+					<span class="gallery-nav__item"></span>
+					<span class="gallery-nav__item"></span>
+					<span class="gallery-nav__item"></span>
+				</nav>
+<!-- Creativity Is Contagious, Pass It On! -->
+				<div class="switch">
+					<button style="font-family: 'Dosis', sans-serif;" class="switch__item switch__item--current">Creativity Is Contagious, Pass It On!</button>
+
+				</div>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/artwork.js"></script>
+		<script>
+		{
+			imagesLoaded(document.body, { background: true }, () => document.body.classList.remove('loading'));
+			
+			const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+			const galleryItems = Array.from(document.querySelectorAll('.gallery > .gallery__item'));
+			const navItems = Array.from(document.querySelectorAll('.gallery-nav > .gallery-nav__item'));
+			const piecesObjs = [];
+			let current = 0;
+			let isAnimating = false;
+			let animateInTimeout;
+			let fx = 0;
+
+			galleryItems.forEach((item) => {
+				piecesObjs.push(new Pieces(item, {
+					pieces: {rows: 6, columns: 3},
+					delay: [0,175]
+				}));
+			});
+
+			navItems.forEach((navitem, pos) => {
+				navitem.addEventListener('click', (ev) => navigate(ev, pos));
+			});
+
+			const navigate = (ev, pos) => {
+				ev.preventDefault();
+				if ( isAnimating || current === pos ) {
+					return false;
+				}
+				isAnimating = true;
+				
+				navItems[current].classList.remove('gallery-nav__item--current');
+				navItems[pos].classList.add('gallery-nav__item--current');
+
+				piecesObjs[current].animate({
+					duration: 800,
+					easing: [0.2,1,0.3,1],
+					delay: (t,i,l) => {
+						if ( fx === 0 ) {
+							return (l-i-1) + parseInt(t.dataset.delay);
+						}
+						else if ( fx === 1 ) {
+							return parseInt(t.dataset.column) + parseInt(t.dataset.delay);
+						}
+						else {
+							return (l-i-1)*20+getRandomInt(-30,30);
+						}
+					},
+					translateX: (t,i) => {
+						if ( fx === 0 ) {
+							return t.dataset.column < piecesObjs[current].getTotalColumns()/2 ? anime.random(50,100)+'px' : anime.random(-100,-50)+'px';
+						}
+						else if ( fx === 1 ) {
+							return pos > current ? anime.random(-1500,-1000)+'px' : anime.random(1000,1500)+'px';
+						}
+						else {
+							return anime.random(-10,10)+'px';
+						}
+					},
+					translateY: (t,i) => { 
+						if ( fx === 0 ) {
+							return anime.random(-1000,-800)+'px';
+						}
+						else if ( fx === 1 ) {
+							return t.dataset.row < piecesObjs[current].getTotalRows()/2 ? anime.random(50,100)+'px' : anime.random(-100,-50)+'px';
+						}
+						else {
+							return anime.random(-1000,-800)+'px';
+						}
+					},
+					opacity: {
+						value: 0,
+						easing: 'linear'
+					},
+					complete: () => {
+						galleryItems[current].classList.remove('gallery__item--current');
+						current = pos;
+						isAnimating = false;
+					}
+				});
+				
+				piecesObjs[pos].pieces.forEach((piece) => {
+					piece.style.opacity = 0;
+
+					if ( fx === 0 ) {
+						piece.style.transform = `translateX(${piece.dataset.column > piecesObjs[pos].getTotalColumns()/2 ? anime.random(50,100) : anime.random(-100,-50)}px) translateY(${anime.random(800,1000)}px)`;
+					}
+					else if ( fx === 1 ) {
+						piece.style.transform = `translateX(${pos > current ? anime.random(1000,1500) : anime.random(-1500,-1000)}px) translateY(${piece.dataset.row < piecesObjs[pos].getTotalRows()/2 ? anime.random(50,100) : anime.random(-100,-50)}px)`;
+					}
+					else {
+						piece.style.transform = `translateX(${anime.random(-50,50)}px) translateY(${anime.random(-200,-100)}px)`;
+					}
+				});
+
+				galleryItems[pos].style.opacity = 1;
+				piecesObjs[pos].animate({
+					duration: 800,
+					easing: fx === 2 ? 'easeOutQuint' : 'easeInOutQuint',
+					delay: (t,i,l) => {
+						if ( fx === 0 ) {
+							return i + parseInt(t.dataset.delay);
+						}
+						else if ( fx === 1 ) {
+							return parseInt(t.dataset.column) + parseInt(t.dataset.delay);	
+						}
+						else {
+							return (l-i-1)*40 + 150;
+						}
+					},
+					translateX: 0,
+					translateY: 0,
+					rotateZ: () => {
+						if ( fx === 0 ) {
+							return [anime.random(-45,45),0];	
+						}
+						return 0;
+					},
+					opacity: 1,
+					complete: () => {
+						galleryItems[pos].classList.add('gallery__item--current');
+					}
+				});
+			};
+
+			const fxItems = Array.from(document.querySelectorAll('.switchs > .switch__item'));
+			fxItems.forEach((fxitem, pos) => {
+				fxitem.addEventListener('click', (ev) => {
+					if (fx === pos) return;
+					fxItems[fx].classList.remove('switch__item--current');
+					fx = pos;
+					fxItems[fx].classList.add('switch__item--current');
+				});
+			});
+		}
+		</script>
+	</body>
+</html>
