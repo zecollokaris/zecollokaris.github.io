@@ -762,6 +762,7 @@ li > a:hover::before{
     background-color: #de0606c4;
 }
 
+/* Animated Box With Images Beside title */
 .slider-content .canvas {
     position: absolute;
     left: 0;
@@ -835,6 +836,7 @@ li > a:hover::before{
     clip-path: url(#svgPathBig);
 }
 
+/* Project FullStack or Android Description */
 .slider-content .image-caption {
     position: absolute;
     color: white;
@@ -847,6 +849,7 @@ li > a:hover::before{
     clip: rect(0rem, 21rem, 12rem, 0px);
     display: inline-block;
     transition: all 0.3s ease;
+    margin-left: 20%;
 }
 
 .slider-content .image-caption.mask-up {
@@ -920,6 +923,7 @@ li > a:hover::before{
     z-index: 5;
 }
 
+/* TITLE of Project */
 .slider-content .title-wrapper h1 {
     font-size: 6rem;
     margin: 0;
@@ -957,6 +961,7 @@ li > a:hover::before{
     clip: rect(12rem, 44rem, 12rem, 0px);
 }
 
+/* View Site Button! */
 .slider-content .title-wrapper span.gallery {
     position: relative;
     text-align: right;
@@ -965,6 +970,9 @@ li > a:hover::before{
     margin-right: 5rem;
 }
 
+.slider-content .title-wrapper span.gallery:hover {
+    color: rgba(0, 0, 0, 0.388);
+}
 
 
 .slider-content .title-wrapper span.gallery::before {
@@ -1055,7 +1063,7 @@ li > a:hover::before{
 }
 
 
-
+/* Line before View Project On Github Button */
 .social-icons::before {
     content: "";
     position: absolute;
@@ -1068,6 +1076,7 @@ li > a:hover::before{
     opacity: 0.9;
 }
 
+/* Line After View Project On Github Button */
 .social-icons::after {
     content: "";
     position: absolute;
@@ -1075,7 +1084,7 @@ li > a:hover::before{
     display: block;
     width: 1px;
     height: 2.5rem;
-    background: rgb(255, 251, 251);
+    background:rgb(255, 251, 251);
     bottom: 1rem;
     opacity: 0.9;
 }
@@ -1097,6 +1106,7 @@ li > a:hover::before{
 
 .social-icons:hover {
     text-decoration: none;
+
 }
 
 .social-icons ul {
@@ -1459,6 +1469,10 @@ li > a:hover::before{
       margin-top: 80vh;
   }
 
+  /* Project FullStack or Android Description */
+  .slider-content .image-caption {
+      margin-left: -30%;
+  }
 
 }
 
@@ -1572,6 +1586,10 @@ li > a:hover::before{
     margin-left: 10%;
 }
 
+/* TITLE of Project */
+.slider-content .title-wrapper h1 {
+    font-size: 5rem;
+}
 
 
 }
@@ -1649,6 +1667,18 @@ li > a:hover::before{
         z-index: 5;
     }
 
+    /* Animated Box With Images Beside title */
+    .slider-content .canvas {
+        margin-left: -10%
+    }
+
+    /* Project FullStack or Android Description */
+    .slider-content .image-caption {
+        margin-left: -40%;
+    }
+
+
+}
 
 /* ----------------------------------------------- */
 
@@ -1677,7 +1707,16 @@ li > a:hover::before{
         min-width: 85vw;
     }
 
-    
+
+    /* TITLE of Project */
+    .slider-content .title-wrapper h1 {
+        font-size: 4rem;
+    }
+
+    /* View Site Button! */
+    .slider-content .title-wrapper span.gallery {
+        margin-right: 2rem;
+    }
 
 }
 
@@ -1733,6 +1772,10 @@ li > a:hover::before{
         z-index: 5;
     }
 
+    /* View Site Button! */
+    .slider-content .title-wrapper span.gallery {
+        margin-right: 3rem;
+    }
 
 
 }
@@ -1770,6 +1813,29 @@ li > a:hover::before{
         margin-right: auto;
         z-index: 5;
     }
+    /* Animated Box With Images Beside title */
+    .slider-content .canvas {
+        margin-left: -20%
+    }
+
+    /* View Site Button! */
+    .slider-content .title-wrapper span.gallery {
+        margin-right: 2rem;
+    }
+
+    /* Line before View Project On Github Button */
+    .social-icons::before {
+        left: 0.5rem;
+    }
+
+    /* Line After View Project On Github Button */
+    .social-icons::after {
+        right: -1rem;
+    }
+    /* TEXT (View Project On Github!) */
+    .social-icons {
+        left: 1rem;
+    }
 
 }
 
@@ -1803,7 +1869,20 @@ li > a:hover::before{
         min-width: 90vw;
     }
 
+    /* Project FullStack or Android Description */
+    .slider-content .image-caption {
+        margin-left: -50%;
+        font-size: 1.0rem;
+    }
+    /* Line before View Project On Github Button */
+    .social-icons::before {
+        left: 1rem;
+    }
 
+    /* Line After View Project On Github Button */
+    .social-icons::after {
+        right: -0.5rem;
+    }
 
 }
 
@@ -1900,6 +1979,10 @@ li > a:hover::before{
         min-width: 90vw;
     }
 
+    /* TITLE of Project */
+    .slider-content .title-wrapper h1 {
+        font-size: 3rem;
+    }
 
 }
 
