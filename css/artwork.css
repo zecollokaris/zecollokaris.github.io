@@ -46,7 +46,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(7, 1fr);
-	height: 100vh;
+	height: 85vh;
 	min-height: 500px;
 	padding-top: 5vh;
 	overflow: hidden;
@@ -55,6 +55,7 @@ body {
 }
 
 .deco-letter {
+	margin-top: -7%;
 	font-size: 10vw;
 	display: flex;
 	justify-content: center;
@@ -130,6 +131,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding: 2em 0 0;
+	margin-top: -5%;
 }
 
 .gallery-nav__item {
@@ -195,7 +197,19 @@ body {
 
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
+
+	.gallery-nav {
+		margin-top: 7%;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+
+	.gallery-nav {
+		margin-top: 15%;
+	}
 
 }
 
@@ -217,4 +231,12 @@ body {
 	.deco-letter {
 		display: none;
 	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.gallery-nav {
+		margin-top: 15%;
+	}
+
 }
