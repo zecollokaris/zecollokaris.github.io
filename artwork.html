@@ -9,6 +9,11 @@
 		<link rel="stylesheet" type="text/css" href="css/artwork.css" />
 		<link rel="stylesheet" type="text/css" href="css/navbar.css">
 
+
+	<!-- Line CSS -->
+	<link rel="stylesheet" type="text/css" href="css/lines.css" />
+	<link rel="stylesheet" type="text/css" href="css/decolines.css" />
+
 		<!-- BOOTSTRAP -->
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -25,9 +30,12 @@
 
 		<!-- GOOOGLE FONTS LINK -->
 		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Russo+One" rel="stylesheet">
+
+
 		<script>document.documentElement.className = 'js';</script>
 	</head>
-	<body class="demo-gallery loading">
+	<body class="demo-gallery loading" class="animate-bottom">
 		<main>
 			<div class="message">Please view this Art Demo on a desktop.</div>
 
@@ -54,7 +62,7 @@
 									<a href="/about.html">about me</a>
 								</li>
 								<li>
-									<a href="/">art work</a>
+									<a href="/artwork.html">art work</a>
 								</li>
 								<li>
 									<a href="/codework.html">code work</a>
@@ -79,7 +87,7 @@
 				<div class="deco-letter">T</div>
 				<div class="deco-letter">A</div>
 				<div class="gallery">
-					<div class="gallery__item pieces gallery__item--current" style="background-image: url(img/g1.jpg)"></div>
+					<div class="gallery__item pieces gallery__item--current" style="background-image: url(images/slide1.jpg)"></div>
 					<div class="gallery__item pieces" style="background-image: url(img/g2.jpg)"></div>
 					<div class="gallery__item pieces" style="background-image: url(img/g3.jpg)"></div>
 					<div class="gallery__item pieces" style="background-image: url(img/g4.jpg)"></div>
@@ -94,12 +102,33 @@
 				</nav>
 			</div>
 		</main>
+						<script src="js/anime.min.js"></script>
+						<script src="js/line.js"></script>
 		<script src="js/scripts.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/anime2.min.js"></script>
 		<script src="js/artwork.js"></script>
 		<script>
 		{
+	(function () {
+				var lineMaker = new LineMaker({
+					lines: [
+						{ top: 0, left: '10vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 5500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+						{ top: 0, left: '30vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 2500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+						{ top: 0, left: '50vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 3500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+						{ top: 0, left: '70vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 5500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+						{ top: 0, left: '90vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 6500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+						{ top: '20em', left: 0, width: '100%', height: 1, color: '#ccc', hidden: true, animation: { duration: 4500, easing: 'easeInOutExpo', delay: 200, direction: 'LeftRight' } }
+					]
+				});
+
+				setTimeout(function () {
+					lineMaker.animateLinesIn();
+				}, 0);
+			})();
+
+
+
 			imagesLoaded(document.body, { background: true }, () => document.body.classList.remove('loading'));
 			
 			const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
@@ -233,6 +262,8 @@
 				});
 			});
 		}
+
+		
 		</script>
 	</body>
 </html>

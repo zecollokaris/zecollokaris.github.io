@@ -188,32 +188,6 @@ li>a:hover::before {
     }
 }
 
-/*ABOUT ME PAGE! */
-.aboutima img {
-    margin-top: 50%;
-    height: 120%;
-    width: 120%;
-}
-
-/*Image Slider Curosel At home!*/
-
-.onebox {
-    height: 62vh;
-}
-
-.oneslider {
-    height: 60vh;
-}
-
-/* SKILL SECTION */
-.column {
-    height: 50%;
-}
-
-/* Project Secton Container */
-.slider-content {
-    margin-top: 60vh;
-}
 
 
 
@@ -224,48 +198,6 @@ li>a:hover::before {
 /* LARGER PHONES */
 @media (max-width:700px) {
 
-    /*ABOUT ME PAGE! */
-    .aboutima img {
-        margin-top: 50%;
-        height: 120%;
-        width: 120%;
-    }
-
-    .column1 {
-        float: none;
-        width: 100%;
-    }
-
-    .column2 {
-        float: none;
-        display: none;
-    }
-
-    .about-intro-image {
-        display: block;
-        height: 100%;
-        width: 100%;
-    }
-
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 50vh;
-    }
-
-    .oneslider {
-        height: 48vh;
-    }
-
-    /* Skills Section */
-
-
-    .skills-two {
-        display: block;
-    }
-
-    .slider-content {
-        margin-top: 80vh;
-    }
 
 
 }
@@ -276,10 +208,6 @@ li>a:hover::before {
 
 
 @media only screen and (max-width : 639px) {
-    .amg-badge {
-        width: 50%;
-        padding: 0px 10%;
-    }
 
 
 }
@@ -289,47 +217,6 @@ li>a:hover::before {
 
 @media (max-width:600px) {
 
-    /* ABOUT PAGE */
-    #headerabout {
-        height: 80%;
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        margin-left: 1%;
-    }
-
-    .oneslider {
-        margin-left: 1%;
-    }
-
-    /* Home Section */
-    #tag-image {
-        height: 17%;
-        width: 17%;
-    }
-
-    /* Project Secton Container */
-    .slider-content {
-        margin-top: 80vh;
-    }
-
-    /* Project FullStack or Android Description */
-    .slider-content .image-caption {
-        margin-left: -30%;
-    }
-
-    /* Conter Besides Projects! */
-    .control-nav {
-        left: 3rem;
-    }
-
-    /* Conter Numbers */
-    .control-nav .number {
-        left: -15rem;
-    }
 
 }
 
@@ -342,46 +229,17 @@ li>a:hover::before {
 @media (max-width:550px) {
 
 
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 47vh;
-        margin-left: -1%;
-        margin-top: 9%;
-    }
-
-    .oneslider {
-        height: 45vh;
-        margin-left: -1%;
-        margin-top: 9%;
-    }
-
     .logoimg {
         display: none;
     }
 
     /* Navbar Displayvbutton */
     .hb-button {
-        margin-right: -5%;
+        margin-right: 1%;
     }
 
     #load {
         display: none;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -5vw;
-    }
-
-    .slider-content {
-        margin-top: 90vh;
-    }
-
-    /* CONTENT WITH (Title of project & View Site) */
-    .slider-content .title-wrapper {
-        margin-left: 40vw;
-        margin-right: auto;
-        z-index: 5;
     }
 
 
@@ -408,51 +266,10 @@ li>a:hover::before {
         height: 4vh;
     }
 
-    /* ABOUT PAGE */
-    .about {
-        width: 110%;
-        padding-right: 10%;
-    }
-
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 42vh;
-        width: 96vw;
-    }
-
-    .oneslider {
-        height: 40vh;
-        width: 93vw;
-    }
 
     /* Navbar Display button */
     .hb-button {
-        margin-right: -6%;
-    }
-
-    /* Home Section */
-    #tag-image {
-        height: 18%;
-        width: 18%;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -1vw;
-    }
-
-    .slider-content {
-        margin-top: 100vh;
-        min-width: 85vw;
-    }
-
-    #codetitle {
-        margin-left: 10%;
-    }
-
-    /* TITLE of Project */
-    .slider-content .title-wrapper h1 {
-        font-size: 5rem;
+        margin-right: 2%;
     }
 
 
@@ -465,26 +282,7 @@ li>a:hover::before {
 @media (max-width:475px) {
 
 
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 42vh;
-        width: 96vw;
-    }
-
-    .oneslider {
-        height: 40vh;
-        width: 93vw;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -1vh;
-    }
-
-    .slider-content {
-        margin-top: 100vh;
-        min-width: 85vw;
-    }
+   
 
     #codetitle {
         margin-left: 10%;
@@ -504,55 +302,6 @@ li>a:hover::before {
     /* Navbar Display button */
     .hb-button {
         float: left;
-    }
-
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 42vh;
-        width: 95vw;
-    }
-
-    .oneslider {
-        height: 40vh;
-        width: 95vw;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -3%;
-    }
-
-    .slider-content {
-        margin-top: 110vh;
-        min-width: 85vw;
-    }
-
-    /* CONTENT WITH (Title of project & View Site) */
-    .slider-content .title-wrapper {
-        margin-left: 40vw;
-        margin-right: auto;
-        z-index: 5;
-    }
-
-    /* Animated Box With Images Beside title */
-    .slider-content .canvas {
-        margin-left: -10%
-    }
-
-    /* Project FullStack or Android Description */
-    .slider-content .image-caption {
-        margin-left: -40%;
-    }
-
-    /* COUNTER */
-    /* Conter Besides Projects! */
-    .control-nav {
-        left: 3rem;
-    }
-
-    /* Conter Numbers */
-    .control-nav .number {
-        left: -13rem;
     }
 
 }
@@ -606,56 +355,6 @@ li>a:hover::before {
         font-size: 11px;
     }
 
-    #about-txt-intro {
-        font-size: 20px;
-    }
-
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 42vh;
-        width: 95vw;
-    }
-
-    .oneslider {
-        height: 40vh;
-        width: 95vw;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -7%;
-    }
-
-    .slider-content {
-        margin-top: 90vh;
-        min-width: 90vw;
-    }
-
-    /* Home Section */
-    #tag-image {
-        height: 25%;
-        width: 25%;
-    }
-
-    #hellotxt {
-        font-size: 23px;
-    }
-
-    #codetitle {
-        margin-left: 13%;
-    }
-
-    /* CONTENT WITH (Title of project & View Site) */
-    .slider-content .title-wrapper {
-        margin-left: 45vw;
-        margin-right: auto;
-        z-index: 5;
-    }
-
-    /* View Site Button! */
-    .slider-content .title-wrapper span.gallery {
-        margin-right: 3rem;
-    }
 
 
 }
@@ -664,84 +363,6 @@ li>a:hover::before {
 
 
 @media (max-width:379px) {
-
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 37vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    .oneslider {
-        height: 35vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -9%;
-    }
-
-    .slider-content {
-        margin-top: 100vh;
-        min-width: 90vw;
-    }
-
-    /* CONTENT WITH (Title of project & View Site) */
-    .slider-content .title-wrapper {
-        margin-left: 45vw;
-        margin-right: auto;
-        z-index: 5;
-    }
-
-    /* Animated Box With Images Beside title */
-    .slider-content .canvas {
-        margin-left: -20%
-    }
-
-    /* View Site Button! */
-    .slider-content .title-wrapper span.gallery {
-        margin-right: 2rem;
-    }
-
-    /* VIEW PROJECT ON GITHUB */
-    /* Line before View Project On Github Button */
-    .social-icons::before {
-        left: 0.5rem;
-    }
-
-    /* Line After View Project On Github Button */
-    .social-icons::after {
-        right: -1rem;
-    }
-
-    /* VIEW SITE */
-    /* Line Before View Site Button */
-    .slider-content .title-wrapper span.gallery::before {
-        left: 0.5rem;
-    }
-
-    /* Line After View Site Button! */
-    .slider-content .title-wrapper span.gallery::after {
-        right: 0.5rem;
-    }
-
-    /* TEXT (View Project On Github!) */
-    .social-icons {
-        left: 1rem;
-    }
-
-    /* COUNTER */
-    /* Conter Besides Projects! */
-    .control-nav {
-        left: 3rem;
-    }
-
-    /* Conter Numbers */
-    .control-nav .number {
-        left: -11rem;
-    }
 
 }
 
@@ -753,87 +374,12 @@ li>a:hover::before {
 
 @media (max-width:350px) {
 
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 33vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    .oneslider {
-        height: 31vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -10%;
-    }
-
-    .slider-content {
-        margin-top: 110vh;
-        min-width: 90vw;
-    }
-
-    /* Project FullStack or Android Description */
-    .slider-content .image-caption {
-        margin-left: -50%;
-        font-size: 1.0rem;
-    }
-
-    /* VIEW PROJECT ON GITHUB */
-    /* Line before View Project On Github Button */
-    .social-icons::before {
-        left: 1rem;
-    }
-
-    /* Line After View Project On Github Button */
-    .social-icons::after {
-        right: -0.5rem;
-    }
-
-
-    /* VIEW SITE */
-    /* Line Before View Site Button */
-    .slider-content .title-wrapper span.gallery::before {
-        left: 1rem;
-    }
-
-    /* Line After View Site Button! */
-    .slider-content .title-wrapper span.gallery::after {
-        right: 1rem;
-    }
-
 }
 
 /* ----------------------------------------------- */
 
 
 @media (max-width:330px) {
-
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 37vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    .oneslider {
-        height: 35vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -11%;
-    }
-
-    .slider-content {
-        margin-top: 110vh;
-        min-width: 90vw;
-    }
 
 }
 
@@ -842,39 +388,7 @@ li>a:hover::before {
 
 @media (max-width:325px) {
 
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 32vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
 
-    .oneslider {
-        height: 30vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -11%;
-    }
-
-    .slider-content {
-        margin-top: 110vh;
-        min-width: 90vw;
-    }
-
-    /* COUNTER */
-    /* Conter Besides Projects! */
-    .control-nav {
-        left: 3rem;
-    }
-
-    /* Conter Numbers */
-    .control-nav .number {
-        left: -9rem;
-    }
 
 }
 
@@ -888,33 +402,7 @@ li>a:hover::before {
 
 @media (max-width:320px) {
 
-    /*Image Slider Curosel At home!*/
-    .onebox {
-        height: 37vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
 
-    .oneslider {
-        height: 35vh;
-        width: 95vw;
-        margin-left: -2%;
-    }
-
-    /* Project container section */
-    .projectslider {
-        margin-left: -11%;
-    }
-
-    .slider-content {
-        margin-top: 130vh;
-        min-width: 90vw;
-    }
-
-    /* TITLE of Project */
-    .slider-content .title-wrapper h1 {
-        font-size: 3rem;
-    }
 
 }
 
