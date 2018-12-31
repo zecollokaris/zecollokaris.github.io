@@ -71,28 +71,9 @@
 
             <div class="container">
 
-                <div style="font-weight:900;" id="load">
-                    <div>G</div>
-                    <div>N</div>
-                    <div>I</div>
-                    <div>D</div>
-                    <div>A</div>
-                    <div>O</div>
-                    <div>L</div>
-                </div>
 
-                <!-- SITE PRELOADER -->
-                <div class="container">
-                    <div style="font-family: 'Do Hyeon', sans-serif;" id="loader">
-                        <p>WELCOME !</p>
-                        <p>portfolio by Collins Kariuki
-                            <i class="em em-zany_face"></i>
-                            <i class="em em---1"></i>
-                        </P>
 
-                    </div>
-                </div>
-                <!-- COLLAPSE SITE PRELOADER -->
+
 
 
                 <!-- PAGE CONTENT -->
@@ -676,33 +657,17 @@
 
                 <!-- JAVA SCRIPT LINKS -->
 
-                <!-- START PAGE LOADER (loading...) -->
-                <script type="text/javascript">
-                    var Start;
-
-                    //Show page content after 3.5s
-                    function myFunction() {
-
-
-                        // timmer
-                        Start = setTimeout(showpage, 500);
-                    }
-                    // Hide animation loader and show page content
-                    function showpage() {
-                        document.getElementById("loader").style.display = "none";
-                        document.getElementById("content").style.display = "block";
-                    }
-
-                </script>
                 <script src="js/scripts.js"></script>
                 <script src="js/anime.min.js"></script>
                 <script src="js/line.js"></script>
                 <script src="js/projectslider.js"></script> 
 
                 <script>
+                    // JS FOR LINE ANIMATION ONCE PAGE IS LOADED!
                     (function () {
                             var lineMaker = new LineMaker({
                                 lines: [
+                                    // Timmer and Line specification!
                                     { top: 0, left: '10vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 5500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
                                     { top: 0, left: '30vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 2500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
                                     { top: 0, left: '50vw', width: 1, height: '100%', color: '#ccc', hidden: true, animation: { duration: 3500, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
