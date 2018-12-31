@@ -320,7 +320,7 @@ li > a:hover::before{
 .aboutima{
   height: 500;
   width: 500;
-  margin-top: 50%;
+  margin-top: 1%;
 }
 /* Image is not seen in large screens */
  .about-intro-image{
@@ -1073,7 +1073,7 @@ li > a:hover::before{
 @media (max-width:1200px ) {
   /* About Page */
  .aboutima{
-    margin-top: 60%;
+    margin-top: 30%;
   }
  .about-intro-image{
    display: none;
