@@ -26,7 +26,7 @@ body {
 }
 
 /* Page Loader */
-.js .loading::before {
+.js .animate-bottom::before {
 	content: '';
 	position: fixed;
 	z-index: 100000;
@@ -37,7 +37,7 @@ body {
 	background: var(--color-bg-main);
 }
 
-.js .loading::after {
+.js .animate-bottom::after {
 	content: '';
 	position: fixed;
 	z-index: 100000;
@@ -417,7 +417,7 @@ button:focus {
 	height: 1.25rem;
 }
 
-@media screen and (min-width: 55em) and (min-height: 40em) {
+ @media screen and (min-width: 55em) and (min-height: 40em) {
 	.sections {
 		height: 100vh;
 		overflow: hidden;
@@ -429,11 +429,14 @@ button:focus {
 								"... expander"
 								"sections-nav expander";
 	}
+
+
 	.codrops-links {
 		position: absolute;
 		top: 0;
 		right: 0;
 	}
+
 	.sections--factsopen .codrops-links {
 		opacity: 0;
 		pointer-events: none;
@@ -441,13 +444,18 @@ button:focus {
 	.codrops-icon {
 		color: #fff;
 	}
+
+	
 	.menu {
 		grid-template-columns: 47% 53%;
 	}
+				
 	.menu__toggle {
 		right: 53%;
 		margin: 2.3rem 4rem 0 0;
 	}
+
+
 	.menu__inner {
 		padding: 4rem 4rem 0 0;
 	}
@@ -473,6 +481,7 @@ button:focus {
 		color: var(--color-text-facts);
 		pointer-events: auto;
 	}
+		
 	.facts__toggle:hover {
 		opacity: 0.6;
 	}
@@ -512,6 +521,7 @@ button:focus {
 		display: flex;
 		z-index: 1;
 	}
+	
 	.sections__index-current {
 		position: relative;
 		overflow: hidden;
@@ -547,6 +557,7 @@ button:focus {
 		height: 3rem;
 		background: var(--color-bg-main);
 	}
+	
 	.sections__nav-item:hover {
 		border-color: var(--color-nav-hover);
 	}
@@ -554,16 +565,18 @@ button:focus {
 		width: 100%;
 		height: 100%;
 	}
+
 	.section {
 		pointer-events: none;
 		grid-area: 1 / 1 / 5 / 4;
-		display: grid;
+		display: block;
 		grid-template-columns: 47% 25% 28%;
 		grid-template-rows: 39% 39% 22%;
 		grid-template-areas: 	"... slide-image slide-image"
 								"slide-content slide-image slide-image"
 								"... ... more";
 	}
+
 	.section--current {
 		pointer-events: auto;
 	}
@@ -644,8 +657,8 @@ button:focus {
 	.js .section:not(.section--current) .section__facts-item {
 		opacity: 0;
 	}
-}
-
+} */
+/* 
 @media screen and (max-width: 54.9em), screen and (max-height: 39.9em) {
 	.js .section__title span,
 	.js .section__description,
@@ -665,4 +678,4 @@ button:focus {
 		border: 2px solid;
 		padding: 0.5rem;
 	}
-}
+} */
