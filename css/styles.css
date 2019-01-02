@@ -1045,7 +1045,43 @@ li > a:hover::before{
     /* SKILL SECTION */
 /* ################################################################################################################# */
 
-    
+.cooltext{
+    margin-top: 25%;
+}
+
+.heading {
+	font-family: "Playfair Display", serif;
+	font-size: 7vw;
+}
+
+.subheading {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+
+
+/*================================================
+Start Important Part
+==================================================*/
+.underline--magical {
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	background-repeat: no-repeat;
+	background-size: 100% 0.2em;
+	background-position: 0 88%;
+	transition: background-size 0.25s ease-in;
+}
+
+.underline--magical:hover {
+	background-size: 100% 88%;
+}
+
+/*================================================
+End Important Part
+==================================================*/
+
+
 
 
 
@@ -1237,6 +1273,10 @@ li > a:hover::before{
       margin-top: 80vh;
   }
 
+  .cooltext {
+      margin-top: 35%;
+  }
+
 
 }
 
@@ -1297,6 +1337,9 @@ li > a:hover::before{
   .control-nav .number {
       left: -15rem;
   }
+.cooltext {
+    margin-top: 45%;
+}
 
 }
 
@@ -1510,6 +1553,9 @@ li > a:hover::before{
      .control-nav .number {
          left: -13rem;
      }
+     .cooltext {
+         margin-top: 55%;
+     }
 
 }
 
@@ -1608,6 +1654,10 @@ li > a:hover::before{
     /* View Site Button! */
     .slider-content .title-wrapper span.gallery {
         margin-right: 3rem;
+    }
+
+    .cooltext {
+        margin-top: 65%;
     }
 
 
@@ -1925,9 +1975,6 @@ often take weeks or months, whether it’s creating a painting or coding a softw
 
 
 
-fit code section to center 
-make nav bar oka
-firnish on code section
 
 
 
