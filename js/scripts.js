@@ -41,7 +41,6 @@ const magicalUnderlines = Array.from(document.querySelectorAll('.underline--magi
 
 const gradientAPI = 'https://gist.githubusercontent.com/wking-io/3e116c0e5675c8bcad8b5a6dc6ca5344/raw/4e783ce3ad0bcd98811c6531e40256b8feeb8fc8/gradient.json';
 
-// HELPER FUNCTIONS
 
 // 1. Get random number in range. Used to get random index from array.
 const randNumInRange = max => Math.floor(Math.random() * (max - 1));
@@ -69,7 +68,6 @@ const getData = async (url) => {
 // background to the magicalUnderlines constant
 const addBackgroundToUnderlines = addBackground(magicalUnderlines);
 
-// GRADIENT FUNCTIONS
 
 // 1. Build CSS formatted linear-gradient from API data
 const buildGradient = (obj) => `linear-gradient(${obj.direction}, ${mergeArrays(obj.colors, obj.positions)})`;
@@ -82,5 +80,8 @@ const applyGradient = async (url, callback) => {
     callback(gradient);
 }
 
-// RESULT
 applyGradient(gradientAPI, addBackgroundToUnderlines);
+
+
+
+// SITE PRELOADER JS!
