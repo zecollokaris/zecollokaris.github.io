@@ -1213,7 +1213,7 @@ div.spinner i:nth-child(8) {
     /* COLLAPSE PROJECT SLIDER  */
 /* ################################################################################################################# */
 /* ################################################################################################################# */
-    /* SKILL SECTION */
+    /* LAST SECTION WITH ABOUT TEXT! */
 /* ################################################################################################################# */
 
 .cooltext{
@@ -1232,10 +1232,7 @@ div.spinner i:nth-child(8) {
 }
 
 
-
-/*================================================
-Start Important Part
-==================================================*/
+/*=Start Important Part=*/
 .underline--magical {
 	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 	background-repeat: no-repeat;
@@ -1247,19 +1244,133 @@ Start Important Part
 .underline--magical:hover {
 	background-size: 100% 88%;
 }
-
-/*================================================
-End Important Part
-==================================================*/
+/*=End Important Part=*/
 
 
-
-
-
-    /* COLLAPSE SKILL SECTION  */
-
+    /* COLLAPSE LAST SECTION WITH ABOUT TEXT!  */
+/* ################################################################################################################# */
+    /* FOOTER SECTION */
 /* ################################################################################################################# */
 
+
+
+ .footer {
+     font-family: 'Signika', sans-serif;
+     z-index: 999;
+ }
+
+ .bg-grey {
+     background: hsl(0, 0%, 7%);
+ }
+
+ .logo-footer {
+     margin-bottom: 40px;
+ }
+
+ footer {
+     color: grey;
+ }
+
+ footer p,
+ a {
+     font-size: 12px;
+     font-family: 'Josefin Sans',
+         sans-serif;
+ }
+
+ footer h6 {
+     font-family: 'Playfair Display', serif;
+     margin-bottom: 40px;
+     position: relative;
+ }
+
+ footer h6:after {
+     position: absolute;
+     content: "";
+     background: grey;
+     width: 12%;
+     height: 1px;
+     left: 0;
+     bottom: -20px;
+ }
+
+ .btn-footer {
+     color: grey;
+
+     text-decoration: none;
+     border: 1px solid;
+     border-radius: 43px;
+     font-size: 13px;
+     padding: 7px 30px;
+     line-height: 47px;
+ }
+
+ .btn-footer:hover {
+
+     text-decoration: none;
+
+ }
+
+ .form-footer input[type="text"] {
+     border: none;
+     border-radius: 16px 0 0 16px;
+     outline: none;
+     padding-left: 10px;
+
+ }
+
+ ::placeholder {
+     font-size: 10px;
+     padding-left: 10px;
+     font-style: italic;
+ }
+
+ .form-footer input[type="button"] {
+     border: none;
+     background: #232323;
+     margin-left: -5px;
+     color: #fff;
+     outline: none;
+     border-radius: 0 16px 16px 0;
+     padding: 2px 12px;
+ }
+
+ .social .fa {
+     color: grey;
+     font-size: 22px;
+     padding: 10px 15px;
+     background: #3c3c3c;
+ }
+
+ footer ul li {
+     list-style: none;
+     display: block;
+ }
+
+ footer ul {
+     padding-left: 0;
+ }
+
+ footer ul li a {
+     text-decoration: none;
+     color: grey;
+     text-decoration: none;
+ }
+
+ a:hover {
+     text-decoration: none;
+     color: #f5f5f5 !important;
+
+ }
+
+ .logo-part {
+     border-right: 1px solid grey;
+     height: 100%;
+ }
+
+
+
+/* COLLAPSE FOOTER SECTION! */
 /* ################################################################################################################# */
 
 /* ################################################################################################################# */
