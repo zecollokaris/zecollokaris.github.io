@@ -670,6 +670,8 @@ div.spinner i:nth-child(8) {
     left: 80%;
 }
 
+
+
 /* CONTAINER FOR PROJECT SECTION! */
 .slider-content {
     position: relative;
@@ -677,7 +679,7 @@ div.spinner i:nth-child(8) {
     min-width: 480px;
     background: #fff;
     margin: 0 auto;
-    margin-top: 50%;
+    margin-top: 60vh;
 }
 
 /* BACKGROUND WITH COLOR HEIGHT SETTER */
@@ -1217,7 +1219,7 @@ div.spinner i:nth-child(8) {
 /* ################################################################################################################# */
 
 .cooltext{
-    margin-top: 25%;
+    margin-top: 30%;
 }
 
 .heading {
@@ -1482,31 +1484,37 @@ div.spinner i:nth-child(8) {
     height: 5vh;
     float: left;
     }
-}
-
     /*ABOUT ME PAGE! */
-    .aboutima img{
-    margin-top: 50%;
-    height: 120%;
-    width: 120%;
+    .aboutima img {
+        margin-top: 50%;
+        height: 120%;
+        width: 120%;
     }
+
     /*Image Slider Curosel At home!*/
 
-  .onebox{
-    height: 62vh;
-  }
-  .oneslider{
-    height: 60vh;
-  }
-/* SKILL SECTION */
-  .column{
-  height: 50%;
+    .onebox {
+        height: 62vh;
+    }
+
+    .oneslider {
+        height: 60vh;
+    }
+
+    /* SKILL SECTION */
+    .column {
+        height: 50%;
+    }
+
+    /* Project Secton Container */
+    .slider-content {
+        margin-top: 70vh;
+    }
+
 }
 
-  /* Project Secton Container */
-  .slider-content {
-      margin-top: 60vh;
-  }
+
+
 
 
 
@@ -1552,7 +1560,7 @@ div.spinner i:nth-child(8) {
   }
 
   .slider-content {
-      margin-top: 60vh;
+      margin-top: 70vh;
   }
 
   .cooltext {
@@ -1603,7 +1611,7 @@ div.spinner i:nth-child(8) {
 
   /* Project Secton Container */
   .slider-content {
-      margin-top: 60vh;
+      margin-top: 70vh;
   }
 
   /* Project FullStack or Andoid Description */
@@ -1663,7 +1671,7 @@ div.spinner i:nth-child(8) {
 }
 
   .slider-content {
-      margin-top: 60vh;
+      margin-top: 70vh;
   }
 
   /* CONTENT WITH (Title of project & View Site) */
@@ -1727,7 +1735,7 @@ div.spinner i:nth-child(8) {
 }
 
 .slider-content {
-    margin-top: 65vh;
+    margin-top: 75vh;
     min-width: 85vw;
 }
 
@@ -1766,7 +1774,7 @@ div.spinner i:nth-child(8) {
         margin-left: -1vh;
     }
     .slider-content {
-        margin-top: 65vh;
+        margin-top: 75vh;
         min-width: 85vw;
     }
 
@@ -1805,7 +1813,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 70vh;
+        margin-top: 80vh;
         min-width: 85vw;
     }
 
@@ -1864,7 +1872,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 70vh;
+        margin-top: 80vh;
         min-width: 85vw;
     }
 
@@ -1880,7 +1888,26 @@ div.spinner i:nth-child(8) {
     }
 
 }
+/* ----------------------------------------------- */
+        /* DESIGNED TO CATER FOR PIXEL 2XL */
+/* ----------------------------------------------- */
+@media (max-width:411px) {
 
+    .slider-content {
+        margin-top: 70vh;
+        min-width: 85vw;
+    }
+
+}
+
+@media (max-width:410px) {
+
+    .slider-content {
+        margin-top: 80vh;
+        min-width: 85vw;
+    }
+
+}
 
 /* ----------------------------------------------- */
 
@@ -1910,7 +1937,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 80vh;
+        margin-top: 95vh;
         min-width: 90vw;
     }
     /* Home Section */
@@ -1968,7 +1995,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 90vh;
+        margin-top: 115vh;
         min-width: 90vw;
     }
 
@@ -2028,7 +2055,26 @@ div.spinner i:nth-child(8) {
 
 }
 
+/* ----------------------------------------------- */
+/* DESIGNED TO CATER FOR I-PHONE X!! */
+/* ----------------------------------------------- */
 
+@media (max-width:375px) {
+
+    .slider-content {
+        margin-top: 97vh;
+        min-width: 90vw;
+    }
+}
+
+@media (max-width:374px) {
+
+    .slider-content {
+        margin-top: 115vh;
+        min-width: 90vw;
+    }
+
+}
 
 
 /* ----------------------------------------------- */
@@ -2054,7 +2100,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 100vh;
+        margin-top: 125vh;
         min-width: 90vw;
     }
 
@@ -2113,7 +2159,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 110vh;
+        margin-top: 125vh;
         min-width: 90vw;
     }
 
@@ -2143,7 +2189,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 110vh;
+        margin-top: 130vh;
         min-width: 90vw;
     }
     /* COUNTER */
@@ -2188,7 +2234,7 @@ div.spinner i:nth-child(8) {
     }
 
     .slider-content {
-        margin-top: 120vh;
+        margin-top: 155vh;
         min-width: 90vw;
     }
 
