@@ -679,7 +679,7 @@ div.spinner i:nth-child(8) {
     min-width: 480px;
     background: #fff;
     margin: 0 auto;
-    margin-top: 60vh;
+    margin-top: 55vh;
 }
 
 /* BACKGROUND WITH COLOR HEIGHT SETTER */
@@ -946,10 +946,12 @@ div.spinner i:nth-child(8) {
     padding: 0 2rem;
     cursor: pointer;
     margin-right: 5rem;
+    text-decoration: none;
 }
 
-.slider-content .title-wrapper span.gallery:hover {
+.slider-content .title-wrapper span.gallery:hover a{
     color: rgba(255, 255, 255, 0.601);
+    text-decoration: none;
 }
 
 
@@ -964,6 +966,7 @@ div.spinner i:nth-child(8) {
     background: white;
     top: -0.5rem;
     opacity: 0.9;
+    text-decoration: none;
 }
 
 /* Line After View Site Button! */
@@ -977,7 +980,14 @@ div.spinner i:nth-child(8) {
     background: rgb(255, 251, 251);
     top: -0.5rem;
     opacity: 0.9;
+    text-decoration: none;
 }
+.gallery a{
+    color: white;
+    text-decoration: none;
+}
+
+
 
 /* Counter Besides Projects! */
 .control-nav {
@@ -1087,7 +1097,6 @@ div.spinner i:nth-child(8) {
 
 .social-icons:hover {
     text-decoration: none;
-
 }
 
 .social-icons ul {
@@ -1095,21 +1104,24 @@ div.spinner i:nth-child(8) {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 .social-icons ul li {
     position: relative;
     display: block;
     padding: 0.3rem 0;
+    text-decoration: none;
 }
 
-.social-icons ul p {
+.social-icons ul p a{
     display: block;
     width: 14rem;
     text-align: center;
     height: 2rem;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-1:hover rect {
