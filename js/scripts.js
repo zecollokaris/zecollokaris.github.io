@@ -6,6 +6,8 @@ $(document).ready(function () {
 });
 
 
+
+
 // CUROSEL FOR IMAGE SLIDER
 var slides = $('.oneslide');
 
