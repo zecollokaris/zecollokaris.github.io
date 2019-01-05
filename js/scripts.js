@@ -114,8 +114,8 @@ applyGradient(gradientAPI, addBackgroundToUnderlines);
 // site preloader -- also uncomment the div in the header and the css style for #preloader
 $(document).ready(function () {
     setTimeout(function () {
-        $('.loader').fadeOut(10, function () {
+        $('.loader').fadeOut(1500, function () {
             $(this).remove();
         });
-    }, 4);
+    }, 5500);
 });
