@@ -25,7 +25,6 @@
 	// Helper vars and functions.
 	const is3DBuggy = navigator.userAgent.indexOf('Firefox') > 0;
 
-
 	function debounce(func, wait, immediate) {
 		var timeout;
 		return function() {
@@ -40,7 +39,6 @@
 			if (callNow) func.apply(context, args);
 		};
 	};
-
 
 	const getMousePos = (e) => {
 		let posx = 0;
