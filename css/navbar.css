@@ -1,0 +1,436 @@
+/*!************************************************\
+
+
+ ________   _______   ___       ___       ______     _              ____
+ |  ____|  |  ___  |  | |       | |      |_   _|    | \     ||   / ____|
+ | |       | |   | |  | |       | |        | |      |  \    ||  | (___
+ | |       | |   | |  | |       | |        | |      ||\  \  ||   \___  \
+ | |____   | |___| |  | |____   | |____    | |      ||  \  \||   ____) /
+ |______|  |_______|  |______|  |______| |_____|    ||    \_ |  \_____/
+
+
+   Conception/Design by https://github.com/zecollokaris
+                   made by collo
+
+  
+\*************************************************/
+
+/*************************************************\
+                     
+\*************************************************/
+
+/* ################################################################################################################# */
+
+
+
+/* ################################################################################################################# */
+/* NAV BAR STYLE */
+/* ################################################################################################################# */
+.navigator {
+    margin-top: 1%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    background: transparent;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1999;
+}
+
+.logo-section {
+    float: left;
+    padding: 18px;
+    font-family: serif;
+}
+
+.hb-button {
+    float: right;
+    background: white;
+    color: rgb(0, 255, 166);
+    border: none;
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #282828;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+nav ul {
+    overflow: hidden;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: max-height: 0.5s;
+    -webkit-transition: max-height: 0.5s;
+    -moz-transition: max-height 0.5s;
+    -ms-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+}
+
+
+nav ul li {
+    float: right;
+    display: inline;
+    padding: 20px;
+}
+
+li>a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(0, 255, 166);
+}
+
+li>a:hover {
+    color: #000;
+}
+
+li>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 255, 166);
+    visibility: onset;
+    -webkit-transform: scaleX(0);
+    transform: scale(0);
+    -webkit-transition: all 4s easy-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+li>a:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Image on nav bar class */
+.logoimg {
+    height: 7vh;
+}
+
+/*Collapse Image on nav bar class */
+
+/* COLLAPSE NAV BAR STYLE */
+/* ################################################################################################################# */
+/* ################################################################################################################# */
+/* ################################################################################################################# */
+
+/* ################################################################################################################# */
+
+/* MEDIA QUERIES */
+
+/* Small devices (tablets, 768px and up) */
+/* MEDIA QRYS */
+
+
+/* ----------------------------------------------- */
+
+/* Large devices (large desktops,) */
+@media (max-width:1200px) {
+
+
+
+}
+
+
+/* ----------------------------------------------- */
+
+/* MEDIUM DEVICES (desktops,) */
+@media (max-width:992px) {
+
+
+
+}
+
+
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:860px) {
+
+
+
+}
+
+
+
+
+/* ----------------------------------------------- */
+
+
+@media screen and (max-width:767px) {
+
+    /* NAV-BAR */
+    .logo-section {
+        float: none;
+    }
+    .navigator{
+        margin-top: 5%;
+    }
+
+    nav ul {
+        background: #ffffff;
+        max-height: 0;
+        width: 100%;
+    }
+
+    nav ul.show {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .hb-button {
+        display: inline;
+    }
+
+    .logoimg {
+        height: 5vh;
+        float: left;
+    }
+}
+
+
+
+
+
+
+/* ----------------------------------------------- */
+
+/* LARGER PHONES */
+@media (max-width:700px) {
+
+
+
+}
+
+
+/* ----------------------------------------------- */
+
+
+
+@media only screen and (max-width : 639px) {
+
+
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:600px) {
+
+
+}
+
+
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:550px) {
+
+
+    .logoimg {
+        display: none;
+    }
+
+    /* Navbar Displayvbutton */
+    .hb-button {
+        margin-right: 1%;
+    }
+
+    #load {
+        display: none;
+    }
+
+
+
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:500px) {
+    .body {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    /* Nav-Bar Profile image */
+    .logoimg {
+        height: 4vh;
+    }
+
+
+    /* Navbar Display button */
+    .hb-button {
+        margin-right: 2%;
+    }
+
+
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:475px) {
+
+
+   
+
+    #codetitle {
+        margin-left: 10%;
+    }
+
+
+
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:450px) {
+
+    /* Navbar Display button */
+    .hb-button {
+        float: left;
+    }
+
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:425px) {
+
+
+    /*Image Slider Curosel At home!*/
+    .onebox {
+        height: 42vh;
+        width: 95vw;
+    }
+
+    .oneslider {
+        height: 40vh;
+        width: 95vw;
+    }
+
+    /* Project container section */
+    .projectslider {
+        margin-left: -3%;
+    }
+
+    .slider-content {
+        margin-top: 110vh;
+        min-width: 85vw;
+    }
+
+
+    /* TITLE of Project */
+    .slider-content .title-wrapper h1 {
+        font-size: 4rem;
+    }
+
+    /* View Site Button! */
+    .slider-content .title-wrapper span.gallery {
+        margin-right: 2rem;
+    }
+
+}
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:400px) {
+    .body {
+        font-size: 11px;
+    }
+
+
+
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:379px) {
+
+}
+
+
+
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:350px) {
+
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:330px) {
+
+}
+
+/* ----------------------------------------------- */
+
+
+@media (max-width:325px) {
+
+
+
+}
+
+
+
+
+
+/* ----------------------------------------------- */
+
+
+
+@media (max-width:320px) {
+
+
+
+}
+
+
+/*COLLAPSE MEDIA QUERIES */
+/* ################################################################################################################# */
