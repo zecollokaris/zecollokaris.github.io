@@ -372,7 +372,7 @@ div.spinner i:nth-child(8) {
 
 /* SLIDER IMAGES */
 .s1{
-    background: url('../images/imageslider/slide1.jpeg');
+    background: url('../images/imageslider/slide1.jpg');
 
     background-size: 100% 100%;
 }
@@ -385,7 +385,7 @@ div.spinner i:nth-child(8) {
 
 .s3{
 
-    background: url('../images/imageslider/slide3.png');
+    background: url('../images/imageslider/slide3.jpg');
 
     background-size: 100% 100%;
 }
