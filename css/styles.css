@@ -372,32 +372,32 @@ div.spinner i:nth-child(8) {
 
 /* SLIDER IMAGES */
 .s1{
-    background: url('../images/imageslider/test1.png');
+    background: url('../images/imageslider/slide1.jpeg');
 
     background-size: 100% 100%;
 }
 
 .s2{
-    background: url('../images/imageslider/test2.png');
+    background: url('../images/imageslider/slide2.png');
 
     background-size: 100% 100%;
 }
 
 .s3{
 
-    background: url('../images/imageslider/test3.png');
+    background: url('../images/imageslider/slide3.png');
 
     background-size: 100% 100%;
 }
 
 .s4{
-    background: url('../images/imageslider/test4.png');
+    background: url('../images/imageslider/slide4.png');
 
     background-size: 100% 100%;
 }
 
 .s5{
-    background: url('../images/imageslider/test5.png');
+    background: url('../images/imageslider/slide5.png');
 
     background-size: 100% 100%;
 }
