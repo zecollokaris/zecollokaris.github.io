@@ -74,8 +74,13 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
+<<<<<<< HEAD
     transition: max-height 0.5s;
     -webkit-transition: max-height 0.5s;
+=======
+    transition: max-height: 0.5s;
+    -webkit-transition: max-height: 0.5s;
+>>>>>>> 8fdcd4e5f3660ea6c1dd6ac992c08cc0111425f8
     -moz-transition: max-height 0.5s;
     -ms-transition: max-height 0.5s;
     -o-transition: max-height 0.5s;
