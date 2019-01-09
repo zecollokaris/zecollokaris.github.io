@@ -1,3 +1,6 @@
+<p align="center">
+<img align="centre" width="300" src="images/imageslider/collins-logo.png" alt="main image" />
+<p>
 
 # MY PORTFOLIO!
 
