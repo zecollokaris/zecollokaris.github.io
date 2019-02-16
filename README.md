@@ -16,7 +16,7 @@ Click Here Below :point_down:
 
 [Zecollo's Portfolio](https://zecollokaris.github.io)  
 
-# RESPONSIVE DESIGN
+### RESPONSIVE DESIGN
 
 <p align="center">
 <img align="centre" src="Spec.md/Website.png" alt="Website device" />
