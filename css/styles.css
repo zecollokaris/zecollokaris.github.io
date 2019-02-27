@@ -407,6 +407,11 @@ div.spinner i:nth-child(8) {
 
     background-size: 100% 100%;
 }
+.s7 {
+    background: url('../images/imageslider/slide7.jpg');
+
+    background-size: 100% 100%;
+}
 
 .onebox{
     height: 73vh;
